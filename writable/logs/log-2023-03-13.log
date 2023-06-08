@@ -1,0 +1,396 @@
+CRITICAL - 2023-03-13 12:49:47 --> Undefined variable $staus
+in APPPATH\Controllers\CommentsController.php on line 76.
+ 1 APPPATH\Controllers\CommentsController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\CommentsController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 12:52:44 --> Undefined variable $staus
+in APPPATH\Controllers\CommentsController.php on line 76.
+ 1 APPPATH\Controllers\CommentsController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\CommentsController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 12:52:59 --> Undefined variable $staus
+in APPPATH\Controllers\CommentsController.php on line 76.
+ 1 APPPATH\Controllers\CommentsController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\CommentsController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 12:55:20 --> Undefined variable $staus
+in APPPATH\Controllers\CommentsController.php on line 88.
+ 1 APPPATH\Controllers\CommentsController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\CommentsController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 12:58:17 --> Undefined variable $staus
+in APPPATH\Controllers\CommentsController.php on line 100.
+ 1 APPPATH\Controllers\CommentsController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\CommentsController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 12:58:30 --> Undefined variable $staus
+in APPPATH\Controllers\CommentsController.php on line 100.
+ 1 APPPATH\Controllers\CommentsController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\CommentsController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 13:03:54 --> Allowed fields must be specified for model: App\Models\CommentsModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\CommentsModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\CommentsController.php(73): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\CommentsController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommentsController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 13:30:19 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg0MjY4MjYsImV4cCI6MTY3ODUxMzIyNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.aKAdl8fySCbpTmj3Wx1suVt90Gi-_c5GNdUmII7Ef2o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/comments', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 14:20:28 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg0MjY4MjYsImV4cCI6MTY3ODUxMzIyNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.aKAdl8fySCbpTmj3Wx1suVt90Gi-_c5GNdUmII7Ef2o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/assign-task', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 14:20:42 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg0MjY4MjYsImV4cCI6MTY3ODUxMzIyNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.aKAdl8fySCbpTmj3Wx1suVt90Gi-_c5GNdUmII7Ef2o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/assign-task', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 14:37:37 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 229.
+ 1 APPPATH\Controllers\TaskController.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 14:45:43 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 244.
+ 1 APPPATH\Controllers\TaskController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 15:52:29 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 290.
+ 1 APPPATH\Controllers\TaskController.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 290)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 15:57:41 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 301.
+ 1 APPPATH\Controllers\TaskController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 15:58:25 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 301.
+ 1 APPPATH\Controllers\TaskController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 15:58:46 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 290.
+ 1 APPPATH\Controllers\TaskController.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 290)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 16:00:20 --> Unclosed '{' on line 9
+in APPPATH\Controllers\TaskController.php on line 303.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\TaskController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TaskController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TaskController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\TaskController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 16:00:56 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 291.
+ 1 APPPATH\Controllers\TaskController.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 16:02:00 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 301.
+ 1 APPPATH\Controllers\TaskController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 16:29:08 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 305.
+ 1 APPPATH\Controllers\TaskController.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 305)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 16:30:16 --> Undefined variable $staus
+in APPPATH\Controllers\TaskController.php on line 305.
+ 1 APPPATH\Controllers\TaskController.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staus', 'APPPATH\\Controllers\\TaskController.php', 305)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-13 17:05:45 --> Undefined variable $message
+in APPPATH\Controllers\TaskController.php on line 364.
+ 1 APPPATH\Controllers\TaskController.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'APPPATH\\Controllers\\TaskController.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TaskController->updateTask('10', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-13 18:17:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ems', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home3/neelneel/public_html/ems/v2/app/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+#7 /home3/neelneel/public_html/ems/v2/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 /home3/neelneel/public_html/ems/v2/app/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+#6 /home3/neelneel/public_html/ems/v2/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-13 18:17:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ems', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home3/neelneel/public_html/ems/v2/app/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+#7 /home3/neelneel/public_html/ems/v2/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 /home3/neelneel/public_html/ems/v2/app/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+#6 /home3/neelneel/public_html/ems/v2/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-13 18:17:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 18:17:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 18:17:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ems', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home3/neelneel/public_html/ems/v2/app/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+#7 /home3/neelneel/public_html/ems/v2/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 /home3/neelneel/public_html/ems/v2/app/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+#6 /home3/neelneel/public_html/ems/v2/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-13 18:17:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Filters/Auth.php(65): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 18:18:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ems', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home3/neelneel/public_html/ems/v2/app/Controllers/LoginController.php(57): CodeIgniter\BaseModel->first()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\LoginController->index()
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/LoginController.php(57): CodeIgniter\BaseModel->first()
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\LoginController->index()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-13 18:18:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/LoginController.php(57): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 18:18:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ems', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home3/neelneel/public_html/ems/v2/app/Controllers/LoginController.php(57): CodeIgniter\BaseModel->first()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\LoginController->index()
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/v2/system/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/v2/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/LoginController.php(57): CodeIgniter\BaseModel->first()
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\LoginController->index()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-13 18:18:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/LoginController.php(57): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

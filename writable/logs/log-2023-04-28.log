@@ -1,0 +1,113 @@
+CRITICAL - 2023-04-28 10:37:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:54 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:54 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:54 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:54 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:37:54 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MjE4NDgsImV4cCI6MTY4MjUwODI0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.ZkF-uH7OSL16gSMtfKfDNNZyv_ruW4CnYLjLn3oXPAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:46:59 --> Undefined variable $roles
+in APPPATH/Controllers/ReportsController.php on line 205.
+ 1 APPPATH/Controllers/ReportsController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH/Controllers/ReportsController.php', 205)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ReportsController->getReportsWithInTimeRange('17', '2023-04-21', '2023-04-28')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:47:29 --> Undefined variable $roles
+in APPPATH/Controllers/ReportsController.php on line 205.
+ 1 APPPATH/Controllers/ReportsController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH/Controllers/ReportsController.php', 205)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ReportsController->getReportsWithInTimeRange('17', '2023-04-21', '2023-04-28')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:49:27 --> Undefined variable $roles
+in APPPATH/Controllers/ReportsController.php on line 205.
+ 1 APPPATH/Controllers/ReportsController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH/Controllers/ReportsController.php', 205)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ReportsController->getReportsWithInTimeRange('17', '2023-04-21', '2023-04-28')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 11:46:20 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzOTkxNjUsImV4cCI6MTY4MjQ4NTU2NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.kww6_enf1Py8lAt_I4k2QEylmvUXdoYZIrhm_tNsp-I', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/for-user-time-entries/10/12/2', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 11:49:16 --> Undefined variable $created_at
+in APPPATH/Models/UsersModel.php on line 73.
+ 1 APPPATH/Models/UsersModel.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $created_at', 'APPPATH/Models/UsersModel.php', 73)
+ 2 APPPATH/Controllers/ReportsController.php(127): App\Models\UsersModel->getTimeEntries('12', '2', '2023-03-10 02:59:44', '0000-00-00 00:00:00')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ReportsController->getTimeEntries('10', '12', '2')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 11:50:52 --> Too few arguments to function App\Models\UsersModel::getTimeEntries(), 3 passed in /home3/neelneel/public_html/ems/v2/app/Controllers/ReportsController.php on line 206 and exactly 4 expected
+in APPPATH/Models/UsersModel.php on line 65.
+ 1 APPPATH/Controllers/ReportsController.php(206): App\Models\UsersModel->getTimeEntries('12', '2', '2023-03-10 02:59:44')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ReportsController->getTimeEntries('10', '12', '2')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,48 @@
+CRITICAL - 2023-01-04 00:14:17 --> Too few arguments to function CodeIgniter\HTTP\URI::setQueryArray(), 0 passed in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php on line 112 and exactly 1 expected
+in SYSTEMPATH\HTTP\URI.php on line 792.
+ 1 APPPATH\Controllers\RegisterController.php(112): CodeIgniter\HTTP\URI->setQueryArray()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 00:14:24 --> Undefined property: CodeIgniter\HTTP\URI::$setQueryArray
+in APPPATH\Controllers\RegisterController.php on line 112.
+ 1 APPPATH\Controllers\RegisterController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\URI::$setQueryArray', 'APPPATH\\Controllers\\RegisterController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 00:16:09 --> Cannot access protected property CodeIgniter\HTTP\URI::$query
+in APPPATH\Controllers\RegisterController.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 00:16:23 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\RegisterController.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 00:19:04 --> Request URI segment is out of range: 2
+in SYSTEMPATH\HTTP\URI.php on line 529.
+ 1 SYSTEMPATH\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\RegisterController.php(112): CodeIgniter\HTTP\URI->getSegment(2, 'limit')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-04 00:24:28 --> Request URI segment is out of range: 3
+in SYSTEMPATH\HTTP\URI.php on line 529.
+ 1 SYSTEMPATH\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Controllers\RegisterController.php(112): CodeIgniter\HTTP\URI->getSegment(3, 'limit')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

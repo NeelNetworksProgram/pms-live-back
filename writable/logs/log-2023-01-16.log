@@ -1,0 +1,542 @@
+CRITICAL - 2023-01-16 12:38:45 --> Signature verification failed
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 140.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTI2OTUsImV4cCI6MTY3Mzg1NjI5NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.2X9pwzFsFTyUlawLtYsecG-O6KtAP1_icICLi-ETJ5Y"', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 12:41:18 --> Signature verification failed
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 140.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTMwNDMsImV4cCI6MTY3Mzg1NjY0MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.EZ3rIhjlmQF3tmaiMTdPQWEpsRD2jpS_30WWapTBJgA"', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 12:42:32 --> Signature verification failed
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 140.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTMwNDMsImV4cCI6MTY3Mzg1NjY0MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.EZ3rIhjlmQF3tmaiMTdPQWEpsRD2jpS_30WWapTBJgA"', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 12:43:07 --> Signature verification failed
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 140.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTMwNDMsImV4cCI6MTY3Mzg1NjY0MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.EZ3rIhjlmQF3tmaiMTdPQWEpsRD2jpS_30WWapTBJgA"', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 12:47:15 --> Cannot access offset of type string on string
+in SYSTEMPATH/Validation/Validation.php on line 120.
+ 1 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 2 APPPATH/Controllers/ProjectController.php(29): CodeIgniter\Controller->validate([...], [...])
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->addproject()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 12:47:33 --> Cannot access offset of type string on string
+in SYSTEMPATH/Validation/Validation.php on line 120.
+ 1 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 2 APPPATH/Controllers/ProjectController.php(29): CodeIgniter\Controller->validate([...], [...])
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->addproject()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:18:13 --> Wrong number of segments
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 102.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('wejiiwjeiwjicndsfhh', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:20:58 --> Signature verification failed
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 140.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTUyNDEsImV4cCI6MTY3Mzg1ODg0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.RU_yj9KsV7mxTZDaDPb-TsyJHqttOVsOzCrqw5BZGst', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:22:06 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"tx¥uB"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTUyNDEsImV4cCI6MTY3Mzg1ODg0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.RU_yj9KsV7mxTZDaDPb-TsyJHqttOVsOzCrqw5BZGsg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:22:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 13:23:11 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"tx¥uB"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTUyNDEsImV4cCI6MTY3Mzg1ODg0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.RU_yj9KsV7mxTZDaDPb-TsyJHqttOVsOzCrqw5BZGsg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:23:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 13:24:19 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"tx¥uB"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTUyNDEsImV4cCI6MTY3Mzg1ODg0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.RU_yj9KsV7mxTZDaDPb-TsyJHqttOVsOzCrqw5BZGsg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:24:19 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 13:27:52 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('yLÈÔØ‰')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTUyNDEsImV4cCI6MTY3Mzg1ODg0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.RU_yj9KsV7mxTZDaDPb-TsyJHqttOVsOzCrqw5BZGsg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:27:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 13:29:55 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTU5NjAsImV4cCI6MTY3Mzg1OTU2MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.y5Ui2tSo6iZdSjQnAHDghaDDCOl3HY3m8IwElMBgvd8', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 13:29:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 14:06:55 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTgyMDMsImV4cCI6MTY3Mzg2MTgwMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.ZD9LvPSId4IJH8nqSY8szWfAoe78Y0IccDh4VFy_yDs', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 14:06:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 14:07:42 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTgyNTIsImV4cCI6MTY3Mzg2MTg1MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.ACZJVg51YvLZgAHcjFuPQKtpWbElP0aI6oGM2iBqcck', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 14:07:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 14:09:27 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('WT","alg":"HS256"}')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('V1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTgzNTAsImV4cCI6MTY3Mzg2MTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.SdL1QvEGHQNR73AxRjouExt7yyCl4gkEIkYGIE0a4DU', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 14:10:12 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"\\ˆè‰!LÈÔØ‰')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg0MDEsImV4cCI6MTY3Mzg2MjAwMSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.81fOSa02nQWM248f0wMkEydFjqXzzIZKgVwP0byYyVw', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 14:10:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 15:12:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:12:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:15 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:15 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:15 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:29 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:30 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:42 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:13:42 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:14:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:14:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:14:04 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:14:04 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:14:04 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:15:17 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:15:17 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTg1MDYsImV4cCI6MTY3Mzg2MjEwNiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Sk6MnWaLGmGBDugCOXKhVr9I9zalt3xWa3qKpnnjv_o', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 15:35:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NTMwNDMsImV4cCI6MTY3Mzg1NjY0MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.EZ3rIhjlmQF3tmaiMTdPQWEpsRD2jpS_30WWapTBJgA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:17:15 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:19:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:19:59 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:00 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:01 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:04 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:06 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:08 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:10 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:20:15 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:21:08 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:21:08 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:24:01 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:24:04 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:24:07 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:24:09 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 16:24:40 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:27:45 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjY1MDUsImV4cCI6MTY3Mzg3MDEwNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0._x9cAPzVfGIwDyvvJFwADDWDssYFKjzy2oKwPS5iYhI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 18:33:22 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NzAyNzksImV4cCI6MTY3Mzg3Mzg3OSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.meri77ILhfCTO-9XbfysXxfM1xAu16Zdhv8Kzb6BzLw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 19:00:45 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzM4NjIzNTAsImV4cCI6MTY3Mzg2NTk1MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.VBHKsWKM0m48rqVVz_ntJgIojzmccxEb9vDPwYehVTk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

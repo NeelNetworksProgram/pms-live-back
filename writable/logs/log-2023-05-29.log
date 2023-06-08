@@ -1,0 +1,659 @@
+ERROR - 2023-05-29 13:19:42 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:19:42 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:19:42 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:19:42 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:21:15 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:21:15 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:21:15 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:21:15 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `task_assign`.`id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:23:26 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:23:26 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:23:27 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:23:27 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `id` as `task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:24:11 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:24:11 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:24:11 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:24:11 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:25:24 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:25:24 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:25:24 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:25:24 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`, `time_entries`.`task_id`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:26:28 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:26:28 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 13:26:28 --> mysqli_sql_exception: SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/app/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+#6 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+#7 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-29 13:26:28 --> SELECT command denied to user 'neelneel_clone_ems'@'localhost' for table 'id'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = \'12\'
+AND `time_entries`.`date` = \'2023-05-29\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `time_entries`.`id` as `entries_id`, `time_entries`.`project_id`, `projects`.`name` as `Project_name`, `time_entries`.`date`, `time_entries`.`time`, `time_entries`.`description`, `task_assign`.`task_name`, `time_entries`.`entries_for`, `work_description_for_proxy`
+FROM `time_entries`
+LEFT JOIN `projects` ON `projects`.`id` = `time_entries`.`project_id`
+LEFT JOIN `task_assign`.`id` ON `task_assign`.`id` = `time_entries`.`task_id`
+WHERE `time_entries`.`user_id` = :time_entries.user_id:
+AND `time_entries`.`date` = :time_entries.date:', [...], false)
+ 5 APPPATH/Models/TimeModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TimeController.php(435): App\Models\TimeModel->get_data('12', '2023-05-29')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->list('12', '2023-05-29')
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:28:54 --> mysqli_sql_exception: Unknown column 'is_edit' in 'field list' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `time_en...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `time_en...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `time_en...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `time_en...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/system/Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 /home3/neelneel/public_html/ems/v3/system/BaseModel.php(887): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /home3/neelneel/public_html/ems/v3/system/Model.php(721): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(686): CodeIgniter\Model->update()
+#8 /home3/neelneel/public_html/ems/v3/app/Controllers/TimeController.php(511): App\Controllers\TimeController->edit_time_entries_for_project(Array)
+#9 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\TimeController->EditExistingTimeEntries()
+#10 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+#11 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:28:54 --> Unknown column 'is_edit' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `time_entries` SET `project_id` = \'49\', `date` = \'2023-05-29\', `time` = \'00:00\', `description` = \'testing.... PMS\', `is_edit` = \'yes\'
+WHERE `id` = \'208\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `time_entries` SET `project_id` = \'49\', `date` = \'2023-05-29\', `time` = \'00:00\', `description` = \'testing.... PMS\', `is_edit` = \'yes\'
+WHERE `id` = \'208\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `time_entries` SET `project_id` = \'49\', `date` = \'2023-05-29\', `time` = \'00:00\', `description` = \'testing.... PMS\', `is_edit` = \'yes\'
+WHERE `id` = \'208\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `time_entries` SET `project_id` = :project_id:, `date` = :date:, `time` = :time:, `description` = :description:, `is_edit` = :is_edit:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(887): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/TimeController.php(686): CodeIgniter\Model->update()
+ 9 APPPATH/Controllers/TimeController.php(511): App\Controllers\TimeController->edit_time_entries_for_project([...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TimeController->EditExistingTimeEntries()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:36 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:28:36 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODUxMDI2NDgsImV4cCI6MTY4NTEzMTQ0OCwiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1IiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.4BkI2Am1vMDbCILfl7WuyPZwBTS6zhMxo92Ib75fvsw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,264 @@
+CRITICAL - 2022-12-28 00:16:24 --> Undefined variable $request
+in APPPATH\Controllers\RegisterController.php on line 16.
+ 1 APPPATH\Controllers\RegisterController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\RegisterController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:16:55 --> Undefined variable $request
+in APPPATH\Controllers\RegisterController.php on line 16.
+ 1 APPPATH\Controllers\RegisterController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\RegisterController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:18:44 --> Undefined variable $request
+in APPPATH\Controllers\RegisterController.php on line 16.
+ 1 APPPATH\Controllers\RegisterController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\RegisterController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:22:40 --> Too few arguments to function CodeIgniter\HTTP\Message::getHeader(), 0 passed in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php on line 17 and exactly 1 expected
+in SYSTEMPATH\HTTP\Message.php on line 80.
+ 1 APPPATH\Controllers\RegisterController.php(17): CodeIgniter\HTTP\Message->getHeader()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:24:14 --> Undefined variable $response
+in APPPATH\Controllers\RegisterController.php on line 20.
+ 1 APPPATH\Controllers\RegisterController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\RegisterController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:24:37 --> Undefined variable $response
+in APPPATH\Controllers\RegisterController.php on line 20.
+ 1 APPPATH\Controllers\RegisterController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\RegisterController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:25:16 --> Undefined variable $response
+in APPPATH\Controllers\RegisterController.php on line 20.
+ 1 APPPATH\Controllers\RegisterController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\RegisterController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:25:48 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::setStatusCode()
+in APPPATH\Controllers\RegisterController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:47:07 --> Too few arguments to function CodeIgniter\HTTP\Message::getHeader(), 0 passed in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php on line 18 and exactly 1 expected
+in SYSTEMPATH\HTTP\Message.php on line 80.
+ 1 APPPATH\Controllers\RegisterController.php(18): CodeIgniter\HTTP\Message->getHeader()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:54:54 --> Undefined variable $header
+in APPPATH\Controllers\RegisterController.php on line 20.
+ 1 APPPATH\Controllers\RegisterController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Controllers\\RegisterController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 00:56:32 --> Undefined variable $header
+in APPPATH\Controllers\RegisterController.php on line 22.
+ 1 APPPATH\Controllers\RegisterController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Controllers\\RegisterController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:22:28 --> Undefined variable $request
+in APPPATH\Controllers\RegisterController.php on line 83.
+ 1 APPPATH\Controllers\RegisterController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\RegisterController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-28 01:22:37 --> Undefined variable $request
+in APPPATH\Controllers\RegisterController.php on line 83.
+ 1 APPPATH\Controllers\RegisterController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\RegisterController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:23:46 --> Undefined variable $request
+in APPPATH\Controllers\RegisterController.php on line 83.
+ 1 APPPATH\Controllers\RegisterController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\RegisterController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:29:44 --> Call to undefined method CodeIgniter\HTTP\Response::setResponseFormat()
+in APPPATH\Controllers\RegisterController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:30:54 --> Undefined property: CodeIgniter\HTTP\Response::$response
+in APPPATH\Controllers\RegisterController.php on line 90.
+ 1 APPPATH\Controllers\RegisterController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Response::$response', 'APPPATH\\Controllers\\RegisterController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 01:31:00 --> Undefined variable $data
+in APPPATH\Controllers\RegisterController.php on line 90.
+ 1 APPPATH\Controllers\RegisterController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\RegisterController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 06:34:43 --> Undefined variable $data
+in APPPATH\Controllers\RegisterController.php on line 198.
+ 1 APPPATH\Controllers\RegisterController.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\RegisterController.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-28 06:37:15 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Your=...', 'Please activate...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(206): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:37:15 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:37:15 --> 
+ERROR - 2022-12-28 06:38:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Your=...', 'Please activate...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(206): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:38:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:38:37 --> 
+ERROR - 2022-12-28 06:41:30 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Your=...', 'Please activate...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(206): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:41:30 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:41:30 --> 
+CRITICAL - 2022-12-28 06:41:30 --> Call to undefined method CodeIgniter\Email\Email::error()
+in APPPATH\Controllers\RegisterController.php on line 209.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-28 06:45:44 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Your=...', 'Please activate...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(206): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:45:44 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:45:44 --> 
+CRITICAL - 2022-12-28 06:45:44 --> Undefined property: CodeIgniter\Email\Email::$ErrorInfo
+in APPPATH\Controllers\RegisterController.php on line 209.
+ 1 APPPATH\Controllers\RegisterController.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Email\\Email::$ErrorInfo', 'APPPATH\\Controllers\\RegisterController.php', 209)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-28 06:45:55 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Your=...', 'Please activate...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(206): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:45:55 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:45:55 --> 
+CRITICAL - 2022-12-28 06:45:55 --> Call to undefined method CodeIgniter\Email\Email::ErrorInfo()
+in APPPATH\Controllers\RegisterController.php on line 209.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-28 06:47:32 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(208): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:47:32 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:47:32 --> 
+ERROR - 2022-12-28 06:48:10 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php:1731
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1731)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1731): mail('hemant@neelnetw...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Wed, 28 D...', '-f hemant@neeln...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\RegisterController.php(208): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\RegisterController->mail()
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-12-28 06:48:10 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 06:48:10 --> 
+CRITICAL - 2022-12-28 07:05:41 --> Undefined variable $header
+in APPPATH\Controllers\RegisterController.php on line 86.
+ 1 APPPATH\Controllers\RegisterController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Controllers\\RegisterController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-28 23:55:26 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-28 23:55:26 --> Exit status code: 1
+Unable to open a socket to Sendmail. Please check settings.

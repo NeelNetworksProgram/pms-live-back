@@ -1,0 +1,222 @@
+CRITICAL - 2023-05-24 10:26:05 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:05 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:05 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:05 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-current-work-by-employee/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:06 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:06 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-current-work-by-employee/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:06 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 10:26:06 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ3NjAxMjAsImV4cCI6MTY4NDc4ODkyMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.skgoAq0WsrnidldD5lkLbyFy-ABeF0auIarDrpdKNDU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:39:18 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:39:18 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:39:18 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:39:18 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:02 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:02 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:02 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:02 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:02 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:03 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:41:04 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:02 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:04 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:04 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:04 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:05 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:05 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:05 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:42:17 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:43:01 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:43:23 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:43:28 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:43:51 --> syntax error, unexpected identifier "Config", expecting ")"
+in APPPATH/Config/Routes.php on line 132.
+ 1 SYSTEMPATH/CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 16:45:03 --> Undefined property: App\Controllers\CronJobs::$user_model
+in APPPATH/Controllers/CronJobs.php on line 22.
+ 1 APPPATH/Controllers/CronJobs.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CronJobs::$user_model', 'APPPATH/Controllers/CronJobs.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\CronJobs->deleteAllTaskForCurrentDate()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CronJobs))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 16:46:01 --> Undefined property: App\Controllers\CronJobs::$user_model
+in APPPATH/Controllers/CronJobs.php on line 22.
+ 1 APPPATH/Controllers/CronJobs.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CronJobs::$user_model', 'APPPATH/Controllers/CronJobs.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\CronJobs->deleteAllTaskForCurrentDate()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CronJobs))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 16:47:12 --> Undefined property: App\Controllers\CronJobs::$user_model
+in APPPATH/Controllers/CronJobs.php on line 22.
+ 1 APPPATH/Controllers/CronJobs.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CronJobs::$user_model', 'APPPATH/Controllers/CronJobs.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\CronJobs->deleteAllTaskForCurrentDate()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CronJobs))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

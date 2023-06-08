@@ -1,0 +1,672 @@
+CRITICAL - 2023-06-05 09:54:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODM0NjIsImV4cCI6MTY4NTcxMjI2MiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rYh59GjZhEor4s0ZjcSm_NkQkLG9cPTS_KwPFVkh96U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/16', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:54:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODM0NjIsImV4cCI6MTY4NTcxMjI2MiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rYh59GjZhEor4s0ZjcSm_NkQkLG9cPTS_KwPFVkh96U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/16/2023-06-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:54:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODM0NjIsImV4cCI6MTY4NTcxMjI2MiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rYh59GjZhEor4s0ZjcSm_NkQkLG9cPTS_KwPFVkh96U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:54:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODM0NjIsImV4cCI6MTY4NTcxMjI2MiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rYh59GjZhEor4s0ZjcSm_NkQkLG9cPTS_KwPFVkh96U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:54:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODM0NjIsImV4cCI6MTY4NTcxMjI2MiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rYh59GjZhEor4s0ZjcSm_NkQkLG9cPTS_KwPFVkh96U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/16', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:54:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODM0NjIsImV4cCI6MTY4NTcxMjI2MiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rYh59GjZhEor4s0ZjcSm_NkQkLG9cPTS_KwPFVkh96U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/16', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:59:41 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTE1MDMsImV4cCI6MTY4NTc0MDMwMywiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.V2clhOvs9CdBUvyJstmsXAJxhRFlUitpGldWWbtKzu8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:59:41 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTE1MDMsImV4cCI6MTY4NTc0MDMwMywiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.V2clhOvs9CdBUvyJstmsXAJxhRFlUitpGldWWbtKzu8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:59:41 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTE1MDMsImV4cCI6MTY4NTc0MDMwMywiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.V2clhOvs9CdBUvyJstmsXAJxhRFlUitpGldWWbtKzu8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:59:41 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTE1MDMsImV4cCI6MTY4NTc0MDMwMywiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.V2clhOvs9CdBUvyJstmsXAJxhRFlUitpGldWWbtKzu8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:59:41 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTE1MDMsImV4cCI6MTY4NTc0MDMwMywiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.V2clhOvs9CdBUvyJstmsXAJxhRFlUitpGldWWbtKzu8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 09:59:41 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTE1MDMsImV4cCI6MTY4NTc0MDMwMywiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.V2clhOvs9CdBUvyJstmsXAJxhRFlUitpGldWWbtKzu8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:05:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODI1NjYsImV4cCI6MTY4NTcxMTM2NiwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.8UBxsCmKT35hUxTAQlZrlLTwpwKUPbRyNW0crd4ZML8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/my-assign-task/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:05:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODI1NjYsImV4cCI6MTY4NTcxMTM2NiwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.8UBxsCmKT35hUxTAQlZrlLTwpwKUPbRyNW0crd4ZML8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:05:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODI1NjYsImV4cCI6MTY4NTcxMTM2NiwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.8UBxsCmKT35hUxTAQlZrlLTwpwKUPbRyNW0crd4ZML8', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:20:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODkzNTcsImV4cCI6MTY4NTcxODE1NywiZW1haWwiOiJzYXRpc2hAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.IrNEMR1sXw1qgb6-Gqe0dqkkuOCxgyU3GxZ1a7GWjEo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:20:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODkzNTcsImV4cCI6MTY4NTcxODE1NywiZW1haWwiOiJzYXRpc2hAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.IrNEMR1sXw1qgb6-Gqe0dqkkuOCxgyU3GxZ1a7GWjEo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:20:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODkzNTcsImV4cCI6MTY4NTcxODE1NywiZW1haWwiOiJzYXRpc2hAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.IrNEMR1sXw1qgb6-Gqe0dqkkuOCxgyU3GxZ1a7GWjEo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/14', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:20:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODkzNTcsImV4cCI6MTY4NTcxODE1NywiZW1haWwiOiJzYXRpc2hAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.IrNEMR1sXw1qgb6-Gqe0dqkkuOCxgyU3GxZ1a7GWjEo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/14', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:20:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODkzNTcsImV4cCI6MTY4NTcxODE1NywiZW1haWwiOiJzYXRpc2hAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.IrNEMR1sXw1qgb6-Gqe0dqkkuOCxgyU3GxZ1a7GWjEo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/14', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:20:53 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODkzNTcsImV4cCI6MTY4NTcxODE1NywiZW1haWwiOiJzYXRpc2hAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.IrNEMR1sXw1qgb6-Gqe0dqkkuOCxgyU3GxZ1a7GWjEo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/14/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/3', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:23:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTI1MDYsImV4cCI6MTY4NTc0MTMwNiwiZW1haWwiOiJzYW5qaXZhbmlAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.gjsxpvM8ufJjwlSfbC23eyL23dGxfIS7eA0VS-4Pj4s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/3/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:26:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTIyODYsImV4cCI6MTY4NTc0MTA4NiwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.tKgJZEGFqSzkWovpYaygkNroQc9up9dDn6S7nBqNiXQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:26:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTIyODYsImV4cCI6MTY4NTc0MTA4NiwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.tKgJZEGFqSzkWovpYaygkNroQc9up9dDn6S7nBqNiXQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:26:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTIyODYsImV4cCI6MTY4NTc0MTA4NiwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.tKgJZEGFqSzkWovpYaygkNroQc9up9dDn6S7nBqNiXQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:26:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTIyODYsImV4cCI6MTY4NTc0MTA4NiwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.tKgJZEGFqSzkWovpYaygkNroQc9up9dDn6S7nBqNiXQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:26:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTIyODYsImV4cCI6MTY4NTc0MTA4NiwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.tKgJZEGFqSzkWovpYaygkNroQc9up9dDn6S7nBqNiXQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:26:58 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTIyODYsImV4cCI6MTY4NTc0MTA4NiwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.tKgJZEGFqSzkWovpYaygkNroQc9up9dDn6S7nBqNiXQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:27:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDY4ODUsImV4cCI6MTY4NTczNTY4NSwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.C44Gj8RVWgMs0s66hyMj8nn1mNxlcjnT5gHN7YSGMkY', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/18', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:27:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDY4ODUsImV4cCI6MTY4NTczNTY4NSwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.C44Gj8RVWgMs0s66hyMj8nn1mNxlcjnT5gHN7YSGMkY', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/18', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:27:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDY4ODUsImV4cCI6MTY4NTczNTY4NSwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.C44Gj8RVWgMs0s66hyMj8nn1mNxlcjnT5gHN7YSGMkY', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-current-work-by-employee/18', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:27:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDY4ODUsImV4cCI6MTY4NTczNTY4NSwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.C44Gj8RVWgMs0s66hyMj8nn1mNxlcjnT5gHN7YSGMkY', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:29 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDkzNjIsImV4cCI6MTY4NTczODE2MiwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.CZD-egLMuhhYtic7h_gWlRWyzV4MhZ_CtPowhDYTGDk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/18', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:29 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDkzNjIsImV4cCI6MTY4NTczODE2MiwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.CZD-egLMuhhYtic7h_gWlRWyzV4MhZ_CtPowhDYTGDk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-current-work-by-employee/18', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:29 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDkzNjIsImV4cCI6MTY4NTczODE2MiwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.CZD-egLMuhhYtic7h_gWlRWyzV4MhZ_CtPowhDYTGDk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/18', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:29 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MDkzNjIsImV4cCI6MTY4NTczODE2MiwiZW1haWwiOiJhZG1pbnRlc3RAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.CZD-egLMuhhYtic7h_gWlRWyzV4MhZ_CtPowhDYTGDk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:55 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODg5NjgsImV4cCI6MTY4NTcxNzc2OCwiZW1haWwiOiJqZWVsQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.IHNrXDhyctJYVK2KDp9X2bvOs6MWPW8NaYyuEDmtKEk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/2/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:55 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODg5NjgsImV4cCI6MTY4NTcxNzc2OCwiZW1haWwiOiJqZWVsQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.IHNrXDhyctJYVK2KDp9X2bvOs6MWPW8NaYyuEDmtKEk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:55 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODg5NjgsImV4cCI6MTY4NTcxNzc2OCwiZW1haWwiOiJqZWVsQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.IHNrXDhyctJYVK2KDp9X2bvOs6MWPW8NaYyuEDmtKEk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/2', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:55 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODg5NjgsImV4cCI6MTY4NTcxNzc2OCwiZW1haWwiOiJqZWVsQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.IHNrXDhyctJYVK2KDp9X2bvOs6MWPW8NaYyuEDmtKEk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/2', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:55 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODg5NjgsImV4cCI6MTY4NTcxNzc2OCwiZW1haWwiOiJqZWVsQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.IHNrXDhyctJYVK2KDp9X2bvOs6MWPW8NaYyuEDmtKEk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:28:55 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2ODg5NjgsImV4cCI6MTY4NTcxNzc2OCwiZW1haWwiOiJqZWVsQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.IHNrXDhyctJYVK2KDp9X2bvOs6MWPW8NaYyuEDmtKEk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/2', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:27:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkxMDIsImV4cCI6MTY4NTk2NzkwMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.SauBAQZrb1s7bFesmkEgXallSadCnmwD7SctbmzeJAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/16', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:27:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkxMDIsImV4cCI6MTY4NTk2NzkwMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.SauBAQZrb1s7bFesmkEgXallSadCnmwD7SctbmzeJAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/16', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:27:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkxMDIsImV4cCI6MTY4NTk2NzkwMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.SauBAQZrb1s7bFesmkEgXallSadCnmwD7SctbmzeJAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:27:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkxMDIsImV4cCI6MTY4NTk2NzkwMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.SauBAQZrb1s7bFesmkEgXallSadCnmwD7SctbmzeJAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/16', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:27:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkxMDIsImV4cCI6MTY4NTk2NzkwMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.SauBAQZrb1s7bFesmkEgXallSadCnmwD7SctbmzeJAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/16/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:27:35 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkxMDIsImV4cCI6MTY4NTk2NzkwMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.SauBAQZrb1s7bFesmkEgXallSadCnmwD7SctbmzeJAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:28:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5Mzk3NjEsImV4cCI6MTY4NTk2ODU2MSwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rFrpA5E_PnePaPUxc6n3pjKnfF-WYq-dy13DKkhmfJI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:28:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5Mzk3NjEsImV4cCI6MTY4NTk2ODU2MSwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rFrpA5E_PnePaPUxc6n3pjKnfF-WYq-dy13DKkhmfJI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:28:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5Mzk3NjEsImV4cCI6MTY4NTk2ODU2MSwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rFrpA5E_PnePaPUxc6n3pjKnfF-WYq-dy13DKkhmfJI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:28:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5Mzk3NjEsImV4cCI6MTY4NTk2ODU2MSwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rFrpA5E_PnePaPUxc6n3pjKnfF-WYq-dy13DKkhmfJI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:28:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5Mzk3NjEsImV4cCI6MTY4NTk2ODU2MSwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rFrpA5E_PnePaPUxc6n3pjKnfF-WYq-dy13DKkhmfJI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:28:34 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5Mzk3NjEsImV4cCI6MTY4NTk2ODU2MSwiZW1haWwiOiJzYXJ2ZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.rFrpA5E_PnePaPUxc6n3pjKnfF-WYq-dy13DKkhmfJI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:49:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDExMTcsImV4cCI6MTY4NTk2OTkxNywiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.2fqkqO3fCLbqi7c1lKjaF47FumZzYmkzDIOtjsGBIxQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:49:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDExMTcsImV4cCI6MTY4NTk2OTkxNywiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.2fqkqO3fCLbqi7c1lKjaF47FumZzYmkzDIOtjsGBIxQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:49:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDExMTcsImV4cCI6MTY4NTk2OTkxNywiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.2fqkqO3fCLbqi7c1lKjaF47FumZzYmkzDIOtjsGBIxQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:49:47 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDExMTcsImV4cCI6MTY4NTk2OTkxNywiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.2fqkqO3fCLbqi7c1lKjaF47FumZzYmkzDIOtjsGBIxQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:49:48 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDExMTcsImV4cCI6MTY4NTk2OTkxNywiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.2fqkqO3fCLbqi7c1lKjaF47FumZzYmkzDIOtjsGBIxQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:49:48 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDExMTcsImV4cCI6MTY4NTk2OTkxNywiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInJlZmVyIjoiaHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQtc3lzdGVtLW5lZWwtbmV0d29ya3MudmVyY2VsLmFwcC8ifQ.2fqkqO3fCLbqi7c1lKjaF47FumZzYmkzDIOtjsGBIxQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDEwMjUsImV4cCI6MTY4NTk2OTgyNSwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.x2SFYRS6kqY6j-IenSxviGHdjMmUF_VlTs1E2EqHS7s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/5/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDEwMjUsImV4cCI6MTY4NTk2OTgyNSwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.x2SFYRS6kqY6j-IenSxviGHdjMmUF_VlTs1E2EqHS7s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDEwMjUsImV4cCI6MTY4NTk2OTgyNSwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.x2SFYRS6kqY6j-IenSxviGHdjMmUF_VlTs1E2EqHS7s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDEwMjUsImV4cCI6MTY4NTk2OTgyNSwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.x2SFYRS6kqY6j-IenSxviGHdjMmUF_VlTs1E2EqHS7s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDEwMjUsImV4cCI6MTY4NTk2OTgyNSwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.x2SFYRS6kqY6j-IenSxviGHdjMmUF_VlTs1E2EqHS7s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDEwMjUsImV4cCI6MTY4NTk2OTgyNSwiZW1haWwiOiJkaGFuYXNocmVlQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.x2SFYRS6kqY6j-IenSxviGHdjMmUF_VlTs1E2EqHS7s', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/5', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkzODYsImV4cCI6MTY4NTk2ODE4NiwiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.siIY08PwWSWkuaYTQ_RC9iAeksLVQFKmzMChI0V2c7M', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkzODYsImV4cCI6MTY4NTk2ODE4NiwiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.siIY08PwWSWkuaYTQ_RC9iAeksLVQFKmzMChI0V2c7M', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/8/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkzODYsImV4cCI6MTY4NTk2ODE4NiwiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.siIY08PwWSWkuaYTQ_RC9iAeksLVQFKmzMChI0V2c7M', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkzODYsImV4cCI6MTY4NTk2ODE4NiwiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.siIY08PwWSWkuaYTQ_RC9iAeksLVQFKmzMChI0V2c7M', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkzODYsImV4cCI6MTY4NTk2ODE4NiwiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.siIY08PwWSWkuaYTQ_RC9iAeksLVQFKmzMChI0V2c7M', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 18:57:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5MzkzODYsImV4cCI6MTY4NTk2ODE4NiwiZW1haWwiOiJzaHJ1dGlrYUBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwczovL3Byb2plY3QtbWFuYWdlbWVudC1zeXN0ZW0tbmVlbC1uZXR3b3Jrcy52ZXJjZWwuYXBwLyJ9.siIY08PwWSWkuaYTQ_RC9iAeksLVQFKmzMChI0V2c7M', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/8', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:10:25 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTMzNzQsImV4cCI6MTY4NTc0MjE3NCwiZW1haWwiOiJ2aWtyYW50QG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.m_LYOEzVPD2-OPC0lPuK7KIjozFgkZwtBLKvmhtiEJA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:10:25 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTMzNzQsImV4cCI6MTY4NTc0MjE3NCwiZW1haWwiOiJ2aWtyYW50QG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.m_LYOEzVPD2-OPC0lPuK7KIjozFgkZwtBLKvmhtiEJA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/count-project-list-for-single-user/17', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:10:25 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTMzNzQsImV4cCI6MTY4NTc0MjE3NCwiZW1haWwiOiJ2aWtyYW50QG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.m_LYOEzVPD2-OPC0lPuK7KIjozFgkZwtBLKvmhtiEJA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/17', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:10:26 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTMzNzQsImV4cCI6MTY4NTc0MjE3NCwiZW1haWwiOiJ2aWtyYW50QG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.m_LYOEzVPD2-OPC0lPuK7KIjozFgkZwtBLKvmhtiEJA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:10:26 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTMzNzQsImV4cCI6MTY4NTc0MjE3NCwiZW1haWwiOiJ2aWtyYW50QG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.m_LYOEzVPD2-OPC0lPuK7KIjozFgkZwtBLKvmhtiEJA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/17', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:10:26 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU3MTMzNzQsImV4cCI6MTY4NTc0MjE3NCwiZW1haWwiOiJ2aWtyYW50QG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.m_LYOEzVPD2-OPC0lPuK7KIjozFgkZwtBLKvmhtiEJA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-my-current-work/17', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:50 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('holiday-list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:50 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/6', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:50 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/6', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:50 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('task/list', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:50 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/6/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:50 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/6', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 19:16:51 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU5NDE0ODgsImV4cCI6MTY4NTk3MDI4OCwiZW1haWwiOiJzYW5kaHlhQG5lZWxuZXR3b3Jrcy5jb20iLCJyZWZlciI6Imh0dHBzOi8vcHJvamVjdC1tYW5hZ2VtZW50LXN5c3RlbS1uZWVsLW5ldHdvcmtzLnZlcmNlbC5hcHAvIn0.Xa47n-HBZOUiq78vdmx7sdlMNsSy4f91-MRIE8AkMnc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/6/2023-06-05', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

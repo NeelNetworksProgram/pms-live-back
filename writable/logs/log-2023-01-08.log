@@ -1,0 +1,16 @@
+CRITICAL - 2023-01-08 23:16:34 --> Undefined variable $response
+in APPPATH\Controllers\ProjectController.php on line 38.
+ 1 APPPATH\Controllers\ProjectController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ProjectController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectController->addproject()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 23:27:15 --> Undefined property: App\Controllers\ProjectController::$project_mode
+in APPPATH\Controllers\ProjectController.php on line 50.
+ 1 APPPATH\Controllers\ProjectController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProjectController::$project_mode', 'APPPATH\\Controllers\\ProjectController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectController->addproject()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

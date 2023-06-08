@@ -1,0 +1,342 @@
+CRITICAL - 2023-03-08 10:14:24 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgxMDkwNDYsImV4cCI6MTY3ODExMjY0NiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.XQeWPYuzAtqXoPfUsNnyvjXFzMFn7FmAj0AUXUqiJGU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 10:14:24 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgxMDkwNDYsImV4cCI6MTY3ODExMjY0NiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.XQeWPYuzAtqXoPfUsNnyvjXFzMFn7FmAj0AUXUqiJGU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 10:14:24 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgxMDkwNDYsImV4cCI6MTY3ODExMjY0NiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.XQeWPYuzAtqXoPfUsNnyvjXFzMFn7FmAj0AUXUqiJGU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 10:14:25 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgxMDkwNDYsImV4cCI6MTY3ODExMjY0NiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.XQeWPYuzAtqXoPfUsNnyvjXFzMFn7FmAj0AUXUqiJGU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 10:14:25 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgxMDkwNDYsImV4cCI6MTY3ODExMjY0NiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.XQeWPYuzAtqXoPfUsNnyvjXFzMFn7FmAj0AUXUqiJGU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 10:14:25 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgxMDkwNDYsImV4cCI6MTY3ODExMjY0NiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.XQeWPYuzAtqXoPfUsNnyvjXFzMFn7FmAj0AUXUqiJGU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 11:55:58 --> Creation of dynamic property App\Controllers\RegisterController::$user_model is deprecated
+in APPPATH\Controllers\RegisterController.php on line 10.
+ 1 APPPATH\Controllers\RegisterController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\RegisterController::$user_model is deprecated', 'APPPATH\\Controllers\\RegisterController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\RegisterController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-08 11:59:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'neelneel_emsapi'@'localhost' (using password: YES) in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'neelneel_emsapi', Object(SensitiveParameterValue), 'neelneel_ems', 3306, '', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('ratnesh@neelnet...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ratnesh@neelnet...', Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\app\Controllers\RegisterController.php(54): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('ratnesh@neelnet...', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ratnesh@neelnet...', Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\app\Controllers\RegisterController.php(54): CodeIgniter\Controller->validate(Array, Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-08 11:59:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('ratnesh@neelnetworks.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ratnesh@neelnetworks.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\RegisterController.php(54): CodeIgniter\Controller->validate([...], [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 12:12:52 --> Creation of dynamic property App\Controllers\LoginController::$user_model is deprecated
+in APPPATH\Controllers\LoginController.php on line 11.
+ 1 APPPATH\Controllers\LoginController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\LoginController::$user_model is deprecated', 'APPPATH\\Controllers\\LoginController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\LoginController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-08 12:30:48 --> mysqli_sql_exception: Unknown column 'email]' in 'where clause' in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('ratnesh@neelnet...', 'email]', Array, NULL, 'email')
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ratnesh@neelnet...', Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\app\Controllers\RegisterController.php(53): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-03-08 12:30:48 --> Unknown column 'email]' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `user`
+WHERE `email]` = \'ratnesh@neelnetworks.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `user`
+WHERE `email]` = \'ratnesh@neelnetworks.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `user`
+WHERE `email]` = \'ratnesh@neelnetworks.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `user`
+WHERE `email]` = :email]:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('ratnesh@neelnetworks.com', 'email]', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ratnesh@neelnetworks.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\RegisterController.php(53): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 13:02:10 --> Undefined variable $rules
+in APPPATH\Controllers\RegisterController.php on line 197.
+ 1 APPPATH\Controllers\RegisterController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\RegisterController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 13:21:17 --> Class "App\Controllers\Exception" not found
+in APPPATH\Controllers\RegisterController.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 13:22:15 --> Class "App\Controllers\Exception" not found
+in APPPATH\Controllers\RegisterController.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 13:22:47 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\RegisterController.php on line 220.
+ 1 APPPATH\Controllers\RegisterController.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\RegisterController.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 13:25:10 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgyNTg0OTEsImV4cCI6MTY3ODI2MjA5MSwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20ifQ.tFrOThW0qyP_GRp1O-cUaMnTgiVXmKYX4-Gwfn6XVcc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/1', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 14:05:25 --> Undefined variable $authorized
+in APPPATH\Controllers\RegisterController.php on line 76.
+ 1 APPPATH\Controllers\RegisterController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $authorized', 'APPPATH\\Controllers\\RegisterController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 14:14:59 --> Undefined array key "password"
+in APPPATH\Controllers\RegisterController.php on line 93.
+ 1 APPPATH\Controllers\RegisterController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Controllers\\RegisterController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 16:12:56 --> Class "App\Controllers\MailControlle" not found
+in APPPATH\Controllers\ProjectAssignController.php on line 120.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 16:14:20 --> Undefined variable $aController
+in APPPATH\Controllers\ProjectAssignController.php on line 121.
+ 1 APPPATH\Controllers\ProjectAssignController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aController', 'APPPATH\\Controllers\\ProjectAssignController.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 16:15:00 --> Array to string conversion
+in SYSTEMPATH\Email\Email.php on line 641.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Email\\Email.php', 641)
+ 2 SYSTEMPATH\Email\Email.php(641): str_replace('', 'ROOTPATH\\public', [...])
+ 3 APPPATH\Controllers\MailController.php(16): CodeIgniter\Email\Email->setMessage([...])
+ 4 APPPATH\Controllers\ProjectAssignController.php(121): App\Controllers\MailController->send_mail('deven@neelnetworks.com', 'hemant@neelnetworks.com', 'New project assigned', 'You have new project Tata Motorassigned by hemant@neelnetworks.com', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 16:47:43 --> Undefined array key "status"
+in APPPATH\Controllers\ProjectAssignController.php on line 80.
+ 1 APPPATH\Controllers\ProjectAssignController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\ProjectAssignController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 17:03:07 --> Class "App\Models\UserModel" not found
+in APPPATH\Filters\Auth.php on line 64.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/assign', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 17:03:44 --> Undefined property: stdClass::$id
+in APPPATH\Filters\Auth.php on line 65.
+ 1 APPPATH\Filters\Auth.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Filters\\Auth.php', 65)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/assign', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 17:28:39 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgyNzE5MjEsImV4cCI6MTY3ODI3NTUyMSwiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSJ9.p3gxA3Jdzk7ZjVf7mIAdWAez46FXOl_qtJbh5S2INEU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/assign', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 18:31:37 --> Call to undefined method CodeIgniter\Router\RouteCollection::update()
+in APPPATH\Config\Routes.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(787): require()
+ 2 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 18:35:05 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgyNzY3ODIsImV4cCI6MTY3ODI4MDM4MiwiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSJ9.XJDsD77ZIlshLLK11esCUtxJaGgYRyXM57GAt3zhNsA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/deallocate/1/2', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 18:36:48 --> Too few arguments to function App\Controllers\ProjectAssignController::deallocate(), 0 passed in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php on line 925 and exactly 2 expected
+in APPPATH\Controllers\ProjectAssignController.php on line 261.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:33:59 --> Undefined array key "project_id"
+in APPPATH\Controllers\ProjectAssignController.php on line 302.
+ 1 APPPATH\Controllers\ProjectAssignController.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "project_id"', 'APPPATH\\Controllers\\ProjectAssignController.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:34:23 --> Undefined array key "user_id"
+in APPPATH\Controllers\ProjectAssignController.php on line 303.
+ 1 APPPATH\Controllers\ProjectAssignController.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\ProjectAssignController.php', 303)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:47:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 868.
+ 1 SYSTEMPATH\BaseModel.php(868): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\ProjectAssignController.php(308): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:51:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 868.
+ 1 SYSTEMPATH\BaseModel.php(868): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\ProjectAssignController.php(308): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:53:33 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 868.
+ 1 SYSTEMPATH\BaseModel.php(868): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\ProjectAssignController.php(309): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:54:25 --> Undefined variable $update
+in APPPATH\Controllers\ProjectAssignController.php on line 312.
+ 1 APPPATH\Controllers\ProjectAssignController.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update', 'APPPATH\\Controllers\\ProjectAssignController.php', 312)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

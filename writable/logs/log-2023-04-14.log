@@ -1,0 +1,36 @@
+CRITICAL - 2023-04-14 17:09:44 --> syntax error, unexpected token "else"
+in APPPATH/Controllers/TimeController.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/TimeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TimeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TimeController')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\TimeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:09:47 --> syntax error, unexpected token "else"
+in APPPATH/Controllers/TimeController.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/TimeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TimeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TimeController')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\TimeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:09:59 --> syntax error, unexpected token "else"
+in APPPATH/Controllers/TimeController.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/TimeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TimeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TimeController')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\TimeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:10:01 --> syntax error, unexpected token "else"
+in APPPATH/Controllers/TimeController.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/TimeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TimeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TimeController')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\TimeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

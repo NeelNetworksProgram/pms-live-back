@@ -1,0 +1,343 @@
+CRITICAL - 2022-12-26 03:03:02 --> Uninitialized string offset 0
+in SYSTEMPATH\CodeIgniter.php on line 875.
+ 1 SYSTEMPATH\CodeIgniter.php(875): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 0', 'SYSTEMPATH\\CodeIgniter.php', 875)
+ 2 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-26 03:28:11 --> Undefined variable $request
+in APPPATH\Controllers\ApiCreation.php on line 5.
+ 1 APPPATH\Controllers\ApiCreation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\ApiCreation.php', 5)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 03:28:35 --> Undefined variable $request
+in APPPATH\Controllers\ApiCreation.php on line 5.
+ 1 APPPATH\Controllers\ApiCreation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\ApiCreation.php', 5)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:22:08 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:23:21 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:23:45 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:27:11 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:27:46 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:33:10 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:34:34 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:36:26 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:41:29 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:41:56 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:42:08 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:43:58 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:44:07 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:44:15 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:44:43 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:46:25 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:47:05 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:48:17 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:49:48 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 04:50:43 --> Call to undefined method App\Controllers\ApiCreation::respondCreated()
+in APPPATH\Controllers\ApiCreation.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:22:26 --> Undefined variable $oObject
+in APPPATH\Controllers\ApiCreation.php on line 25.
+ 1 APPPATH\Controllers\ApiCreation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $oObject', 'APPPATH\\Controllers\\ApiCreation.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:36:39 --> Call to undefined method App\Controllers\ApiCreation::getRequestInput()
+in APPPATH\Controllers\ApiCreation.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:36:56 --> Call to undefined method App\Controllers\ApiCreation::getRequestInput()
+in APPPATH\Controllers\ApiCreation.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:37:30 --> hemant is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('hemant')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('username', 'username', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ApiCreation.php(44): CodeIgniter\Controller->validate([...], [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:37:43 --> hemant is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('hemant')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('username', 'username', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ApiCreation.php(44): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:46:31 --> hemant is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('hemant')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('username', 'username', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ApiCreation.php(44): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:25:57 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:27:06 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:27:30 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:28:31 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:28:58 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:29:45 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:30:24 --> Undefined variable $response
+in APPPATH\Controllers\ApiCreation.php on line 59.
+ 1 APPPATH\Controllers\ApiCreation.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ApiCreation.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:31:05 --> Undefined variable $response
+in APPPATH\Controllers\ApiCreation.php on line 59.
+ 1 APPPATH\Controllers\ApiCreation.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ApiCreation.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:31:46 --> Undefined variable $response
+in APPPATH\Controllers\ApiCreation.php on line 59.
+ 1 APPPATH\Controllers\ApiCreation.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ApiCreation.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:32:47 --> Undefined variable $response
+in APPPATH\Controllers\ApiCreation.php on line 59.
+ 1 APPPATH\Controllers\ApiCreation.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ApiCreation.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:35:13 --> Undefined variable $response
+in APPPATH\Controllers\ApiCreation.php on line 56.
+ 1 APPPATH\Controllers\ApiCreation.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ApiCreation.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:38:02 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:38:53 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:41:02 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:41:27 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:41:45 --> Class "App\Controllers\UsersModel" not found
+in APPPATH\Controllers\ApiCreation.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->register()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:31:40 --> Call to undefined method App\Controllers\Login::respondCreated()
+in APPPATH\Controllers\Login.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:31:46 --> Call to undefined method App\Controllers\Login::respondCreated()
+in APPPATH\Controllers\Login.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:40:19 --> Undefined variable $response
+in APPPATH\Controllers\Login.php on line 49.
+ 1 APPPATH\Controllers\Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\Login.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:47:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 45.
+ 1 APPPATH\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:48:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 45.
+ 1 APPPATH\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:48:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 45.
+ 1 APPPATH\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:36:16 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:36:39 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

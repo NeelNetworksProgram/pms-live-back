@@ -1,0 +1,39 @@
+CRITICAL - 2023-01-03 00:45:26 --> Undefined variable $token
+in APPPATH\Controllers\LoginController.php on line 73.
+ 1 APPPATH\Controllers\LoginController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'APPPATH\\Controllers\\LoginController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-03 01:30:29 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH\Controllers\RegisterController.php on line 125.
+ 1 APPPATH\Controllers\RegisterController.php(125): array_key_exists('limit', null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-03 03:27:27 --> Undefined property: App\Controllers\RegisterController::$get
+in APPPATH\Controllers\RegisterController.php on line 123.
+ 1 APPPATH\Controllers\RegisterController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RegisterController::$get', 'APPPATH\\Controllers\\RegisterController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-03 03:32:07 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Controllers\RegisterController.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-03 03:32:24 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$query
+in APPPATH\Controllers\RegisterController.php on line 123.
+ 1 APPPATH\Controllers\RegisterController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$query', 'APPPATH\\Controllers\\RegisterController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

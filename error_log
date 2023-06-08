@@ -1,0 +1,912 @@
+[16-Jan-2023 13:22:06 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 13:23:11 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 13:24:19 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 13:27:52 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 13:29:55 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 14:06:55 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 14:07:42 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[16-Jan-2023 14:10:12 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:38:01 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:38:01 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:38:01 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:38:01 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:44:57 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:04 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:13 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:13 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:14 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:14 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:14 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:45:14 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:51:56 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:51:56 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:51:56 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:51:56 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:51:56 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:51:56 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:56:03 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:56:03 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:56:03 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 12:56:03 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:33 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:33 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:33 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:34 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:34 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:34 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:35 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:35 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:35 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:35 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:36 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 13:04:36 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 14:15:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 14:15:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[02-Mar-2023 14:15:10 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:28 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:36 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:36 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:36 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:36 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:50 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:57 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:57 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:57 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:57 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:16:59 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:17:00 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:17:00 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:17:00 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:17:00 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[20-Mar-2023 10:17:00 Asia/Calcutta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v2/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v2/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v2/system/Format/JSONFormatter.php on line 41
+[05-May-2023 14:52:05 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 80
+[05-May-2023 14:52:05 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 80
+[05-May-2023 14:52:22 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 80
+[05-May-2023 14:54:02 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 80
+[09-May-2023 16:30:28 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:28 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:29 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:29 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:30 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:30 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:45 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[09-May-2023 16:30:47 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Models\TaskModel::getTaskBySingleUser() in /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php on line 79
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:31 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41
+[22-May-2023 18:23:41 Asia/Kolkata] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/v3/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/v3/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown in /home3/neelneel/public_html/ems/v3/system/Format/JSONFormatter.php on line 41

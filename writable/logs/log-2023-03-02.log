@@ -1,0 +1,1288 @@
+CRITICAL - 2023-03-02 10:08:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc2NjA2NTEsImV4cCI6MTY3NzY2NDI1MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0._YQTrMp6NDIOhENEX_X9GUOpeSzdPbMEgX22q3SqqQo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 10:08:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc2NjA2NTEsImV4cCI6MTY3NzY2NDI1MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0._YQTrMp6NDIOhENEX_X9GUOpeSzdPbMEgX22q3SqqQo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 10:08:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc2NjA2NTEsImV4cCI6MTY3NzY2NDI1MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0._YQTrMp6NDIOhENEX_X9GUOpeSzdPbMEgX22q3SqqQo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 10:12:26 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc2NjA1OTMsImV4cCI6MTY3NzY2NDE5MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.wVxP0aaurBb9eLKJVLv6g_EcE70jv37Q5hdffuju1p4', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 10:12:26 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc2NjA1OTMsImV4cCI6MTY3NzY2NDE5MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.wVxP0aaurBb9eLKJVLv6g_EcE70jv37Q5hdffuju1p4', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 10:12:26 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc2NjA1OTMsImV4cCI6MTY3NzY2NDE5MywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.wVxP0aaurBb9eLKJVLv6g_EcE70jv37Q5hdffuju1p4', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 11:37:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzI5NTgsImV4cCI6MTY3NzczNjU1OCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Fc4p8G_Rbv6aU1VIxirR0lamfjpIzm3bCZAAMfW9FYA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 11:37:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzI5NTgsImV4cCI6MTY3NzczNjU1OCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Fc4p8G_Rbv6aU1VIxirR0lamfjpIzm3bCZAAMfW9FYA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 11:37:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzI5NTgsImV4cCI6MTY3NzczNjU1OCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Fc4p8G_Rbv6aU1VIxirR0lamfjpIzm3bCZAAMfW9FYA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 11:37:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzI5NTgsImV4cCI6MTY3NzczNjU1OCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Fc4p8G_Rbv6aU1VIxirR0lamfjpIzm3bCZAAMfW9FYA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 11:37:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzI5NTgsImV4cCI6MTY3NzczNjU1OCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Fc4p8G_Rbv6aU1VIxirR0lamfjpIzm3bCZAAMfW9FYA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 11:37:14 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzI5NTgsImV4cCI6MTY3NzczNjU1OCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Fc4p8G_Rbv6aU1VIxirR0lamfjpIzm3bCZAAMfW9FYA', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:20:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzU4MDcsImV4cCI6MTY3NzczOTQwNywiZW1haWwiOiJwZXNpZ2FAZW1hLXNvZmlhLmV1In0.KLgh8cq1Cf1rj7nRYbB3Cl6Rap0wfhTi1WzO3JEVSN4', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/12', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzkwMzMsImV4cCI6MTY3Nzc0MjYzMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lnFmICFOQiclFgvpk6j7wuVKi3h2819GDsYcf_bzg2U', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:32:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzkwMzMsImV4cCI6MTY3Nzc0MjYzMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lnFmICFOQiclFgvpk6j7wuVKi3h2819GDsYcf_bzg2U', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:32:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzkwMzMsImV4cCI6MTY3Nzc0MjYzMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lnFmICFOQiclFgvpk6j7wuVKi3h2819GDsYcf_bzg2U', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:32:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzkwMzMsImV4cCI6MTY3Nzc0MjYzMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lnFmICFOQiclFgvpk6j7wuVKi3h2819GDsYcf_bzg2U', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:32:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzkwMzMsImV4cCI6MTY3Nzc0MjYzMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lnFmICFOQiclFgvpk6j7wuVKi3h2819GDsYcf_bzg2U', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('GciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3MzkwMzMsImV4cCI6MTY3Nzc0MjYzMywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lnFmICFOQiclFgvpk6j7wuVKi3h2819GDsYcf_bzg2U', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:32:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:32:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:38:01 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA1OTAsImV4cCI6MTY3Nzc0NDE5MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.PbsdV1z5b4URc0niH1jW_DdPKocdWO6R3O4U3zbyC4c', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:38:01 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA1OTAsImV4cCI6MTY3Nzc0NDE5MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.PbsdV1z5b4URc0niH1jW_DdPKocdWO6R3O4U3zbyC4c', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:38:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:38:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:38:01 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA1OTAsImV4cCI6MTY3Nzc0NDE5MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.PbsdV1z5b4URc0niH1jW_DdPKocdWO6R3O4U3zbyC4c', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:38:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:38:01 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA1OTAsImV4cCI6MTY3Nzc0NDE5MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.PbsdV1z5b4URc0niH1jW_DdPKocdWO6R3O4U3zbyC4c', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:38:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:44:57 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:44:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:04 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:09 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:09 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:09 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:09 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:09 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:09 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:13 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:13 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:14 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:14 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:14 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:45:14 --> Malformed UTF-8 characters
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(5)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('Õ‹˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDA5MDIsImV4cCI6MTY3Nzc0NDUwMiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.HNB3oCTBmYK6nqEhb_78va19fBGIkNPg9TUvHL7ehYM', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:51:56 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDEzMjUsImV4cCI6MTY3Nzc0NDkyNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.o9yd0elBdvkriLEXTSP-2qkkll0oH5M6My3TJ7n_B7M', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:51:56 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDEzMjUsImV4cCI6MTY3Nzc0NDkyNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.o9yd0elBdvkriLEXTSP-2qkkll0oH5M6My3TJ7n_B7M', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:51:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:51:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:51:56 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDEzMjUsImV4cCI6MTY3Nzc0NDkyNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.o9yd0elBdvkriLEXTSP-2qkkll0oH5M6My3TJ7n_B7M', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:51:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:51:56 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDEzMjUsImV4cCI6MTY3Nzc0NDkyNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.o9yd0elBdvkriLEXTSP-2qkkll0oH5M6My3TJ7n_B7M', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:51:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:51:56 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDEzMjUsImV4cCI6MTY3Nzc0NDkyNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.o9yd0elBdvkriLEXTSP-2qkkll0oH5M6My3TJ7n_B7M', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:51:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:51:56 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDEzMjUsImV4cCI6MTY3Nzc0NDkyNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.o9yd0elBdvkriLEXTSP-2qkkll0oH5M6My3TJ7n_B7M', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:51:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:56:03 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE5NDEsImV4cCI6MTY3Nzc0NTU0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.T1O0GbGv5XmSMtyGisEIxrrjIUXML1aTU024S306Dos', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:56:03 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE5NDEsImV4cCI6MTY3Nzc0NTU0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.T1O0GbGv5XmSMtyGisEIxrrjIUXML1aTU024S306Dos', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:56:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:56:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:56:03 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE5NDEsImV4cCI6MTY3Nzc0NTU0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.T1O0GbGv5XmSMtyGisEIxrrjIUXML1aTU024S306Dos', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:56:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 12:56:03 --> Syntax error, malformed JSON
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(4)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('B"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE5NDEsImV4cCI6MTY3Nzc0NTU0MSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.T1O0GbGv5XmSMtyGisEIxrrjIUXML1aTU024S306Dos', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 12:56:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:33 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:33 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:33 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:34 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:34 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:34 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:35 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:35 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:35 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:35 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:36 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 13:04:36 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('˜[Èˆ’ÌMˆŸ')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('CJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDE3MjcsImV4cCI6MTY3Nzc0NTMyNywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.1Yqc1GaIvmNGiAUI41TOdNQiJ57P6ImJoyVxUKNc32Q', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 13:04:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 14:15:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"t#¢$¥uB"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0AiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDY3MDAsImV4cCI6MTY3Nzc1MDMwMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Y3xcxqjVCKL3zNlTb8qZoSdi_q84moROxXtKnvx3KOg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 14:15:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"t#¢$¥uB"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0AiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDY3MDAsImV4cCI6MTY3Nzc1MDMwMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Y3xcxqjVCKL3zNlTb8qZoSdi_q84moROxXtKnvx3KOg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 14:15:10 --> Unexpected control character found
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 483.
+ 1 FCPATH/vendor/firebase/php-jwt/src/JWT.php(343): Firebase\JWT\JWT::handleJsonError(3)
+ 2 FCPATH/vendor/firebase/php-jwt/src/JWT.php(106): Firebase\JWT\JWT::jsonDecode('{"t#¢$¥uB"Â&Ær#¢$…3#Sb\'')
+ 3 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0AiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDY3MDAsImV4cCI6MTY3Nzc1MDMwMCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.Y3xcxqjVCKL3zNlTb8qZoSdi_q84moROxXtKnvx3KOg', Object(Firebase\JWT\Key))
+ 4 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 14:15:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 14:15:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 14:15:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/neelneel/public_html/ems/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/neelneel/public_html/ems/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-02 15:45:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDc3NDIsImV4cCI6MTY3Nzc1MTM0MiwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.IFHHLWk3PS0ZaeawOmOcTqq5PBqhUuh61YHsAODy9Fg', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:45:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDc3NDIsImV4cCI6MTY3Nzc1MTM0MiwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.IFHHLWk3PS0ZaeawOmOcTqq5PBqhUuh61YHsAODy9Fg', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:45:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDc3NDIsImV4cCI6MTY3Nzc1MTM0MiwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.IFHHLWk3PS0ZaeawOmOcTqq5PBqhUuh61YHsAODy9Fg', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:45:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDc3NDIsImV4cCI6MTY3Nzc1MTM0MiwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.IFHHLWk3PS0ZaeawOmOcTqq5PBqhUuh61YHsAODy9Fg', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:55:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDkwNzcsImV4cCI6MTY3Nzc1MjY3NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.sQRJpe4S4Ep6Qiq1uxV3vLKbrc0nT9AKCJ4cIpjZQ4I', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:55:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDkwNzcsImV4cCI6MTY3Nzc1MjY3NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.sQRJpe4S4Ep6Qiq1uxV3vLKbrc0nT9AKCJ4cIpjZQ4I', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:55:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDkwNzcsImV4cCI6MTY3Nzc1MjY3NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.sQRJpe4S4Ep6Qiq1uxV3vLKbrc0nT9AKCJ4cIpjZQ4I', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 15:55:12 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NDkwNzcsImV4cCI6MTY3Nzc1MjY3NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.sQRJpe4S4Ep6Qiq1uxV3vLKbrc0nT9AKCJ4cIpjZQ4I', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:16 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:17 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:17 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:17 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 17:32:17 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTM3NjcsImV4cCI6MTY3Nzc1NzM2NywiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.4q-2X6KlCf_yLijjzbqXZEYfSWnRv4pPyBVPejuEtQ0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:31:31 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTIxMjksImV4cCI6MTY3Nzc1NTcyOSwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.bEz1inTibCDhu4qR335l_U2zds5pmREzXBY0eq2428E', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:31:31 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTIxMjksImV4cCI6MTY3Nzc1NTcyOSwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.bEz1inTibCDhu4qR335l_U2zds5pmREzXBY0eq2428E', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:31:31 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTIxMjksImV4cCI6MTY3Nzc1NTcyOSwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.bEz1inTibCDhu4qR335l_U2zds5pmREzXBY0eq2428E', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/11/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:31:31 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTIxMjksImV4cCI6MTY3Nzc1NTcyOSwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.bEz1inTibCDhu4qR335l_U2zds5pmREzXBY0eq2428E', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/list/11/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:31:31 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTIxMjksImV4cCI6MTY3Nzc1NTcyOSwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.bEz1inTibCDhu4qR335l_U2zds5pmREzXBY0eq2428E', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/assign-project-list-for-single-user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:31:31 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTIxMjksImV4cCI6MTY3Nzc1NTcyOSwiZW1haWwiOiJuaWtvaGloMzQ4QG1pbnRlcnAuY29tIn0.bEz1inTibCDhu4qR335l_U2zds5pmREzXBY0eq2428E', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/11', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:07 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-03', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:51 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:51 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:51 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:51 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:52 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:52 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('reports/within-time-range/10/2023-03-02/2023-03-02', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:52 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 18:33:52 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzc3NTg1NzUsImV4cCI6MTY3Nzc2MjE3NSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.lJgafY8dj4-hjTCw-RTJO9Km-zWI16GftvIGrsOfbgI', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

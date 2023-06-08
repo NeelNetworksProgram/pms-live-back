@@ -1,0 +1,519 @@
+CRITICAL - 2023-04-24 10:30:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNzk2MTUsImV4cCI6MTY4MjE2NjAxNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.OEwRPxYQEczFW80vKreBYvdY1fEYehlhS4BfFhYmtsM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 10:30:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNzk2MTUsImV4cCI6MTY4MjE2NjAxNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.OEwRPxYQEczFW80vKreBYvdY1fEYehlhS4BfFhYmtsM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 10:30:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNzk2MTUsImV4cCI6MTY4MjE2NjAxNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.OEwRPxYQEczFW80vKreBYvdY1fEYehlhS4BfFhYmtsM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 10:30:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNzk2MTUsImV4cCI6MTY4MjE2NjAxNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.OEwRPxYQEczFW80vKreBYvdY1fEYehlhS4BfFhYmtsM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 10:30:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNzk2MTUsImV4cCI6MTY4MjE2NjAxNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.OEwRPxYQEczFW80vKreBYvdY1fEYehlhS4BfFhYmtsM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 10:30:02 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNzk2MTUsImV4cCI6MTY4MjE2NjAxNSwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.OEwRPxYQEczFW80vKreBYvdY1fEYehlhS4BfFhYmtsM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 13:11:41 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 13:11:41 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 13:12:01 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 13:12:01 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:34:37 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Enjoy 1 Day off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Enjoy 1 Day off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:34:37 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Enjoy 1 Day off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Enjoy 1 Day off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Enjoy 1 Day off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Enjoy 1 Day off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Enjoy 1 Day off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:35:27 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('1 day off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', '1 day off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:35:27 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'1 day off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'1 day off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'1 day off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('1 day off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', '1 day off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:35:45 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:35:45 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:35:58 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:35:58 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:37:27 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:37:27 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:38:26 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:38:26 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Day Off\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Day Off', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Day Off', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 14:39:32 --> mysqli_sql_exception: Unknown column 'holiay_name' in 'where clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Good Friday', 'holiay_name', Array, NULL, 'holiday_name')
+#6 /home3/neelneel/public_html/ems/v2/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Good Friday', Array, Array)
+#7 /home3/neelneel/public_html/ems/v2/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v2/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-24 14:39:32 --> Unknown column 'holiay_name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Good Friday\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Good Friday\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = \'Good Friday\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiay_name` = :holiay_name:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Good Friday', 'holiay_name', [...], null, 'holiday_name')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_name', 'holiday_name', 'Good Friday', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 18:53:41 --> mysqli_sql_exception: Unknown column 'CASE WHEN project_assign.user_id IS NULL THEN "NA" ELSE user.username END' in 'field list' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `project...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `project...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `project...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `project...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/ProjectAssignModel.php(224): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/ProjectController.php(128): App\Models\ProjectAssignModel->getUserListOnSingleProject()
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-24 18:53:41 --> Unknown column 'CASE WHEN project_assign.user_id IS NULL THEN "NA" ELSE user.username END' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = \'no\'
+AND `project_assign`.`project_deallocate` != \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = \'no\'
+AND `project_assign`.`project_deallocate` != \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = \'no\'
+AND `project_assign`.`project_deallocate` != \'\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = :project_assign.project_deallocate:
+AND `project_assign`.`project_deallocate` != :project_assign.project_deallocate.1:', [...], false)
+ 5 APPPATH/Models/ProjectAssignModel.php(224): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ProjectController.php(128): App\Models\ProjectAssignModel->getUserListOnSingleProject()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 18:53:41 --> mysqli_sql_exception: Unknown column 'CASE WHEN project_assign.user_id IS NULL THEN "NA" ELSE user.username END' in 'field list' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `project...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `project...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `project...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `project...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/ProjectAssignModel.php(224): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/ProjectController.php(128): App\Models\ProjectAssignModel->getUserListOnSingleProject()
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-24 18:53:41 --> Unknown column 'CASE WHEN project_assign.user_id IS NULL THEN "NA" ELSE user.username END' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = \'no\'
+AND `project_assign`.`project_deallocate` != \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = \'no\'
+AND `project_assign`.`project_deallocate` != \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = \'no\'
+AND `project_assign`.`project_deallocate` != \'\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `projects`.`id` as `project_id`, `projects`.`project_no`, `CASE WHEN project_assign`.`user_id IS NULL THEN "NA" ELSE user`.`username END` as `assign_to`, `projects`.`name` as `project_name`, `projects`.`project_category`, `projects`.`project_status`, `projects`.`created_at`, `projects`.`updated_at`, `project_assign`.`project_deallocate`, `projects`.`project_stage`
+FROM `projects`
+LEFT OUTER JOIN `project_assign` ON `project_assign`.`project_id` = `projects`.`id`
+LEFT OUTER JOIN `user` ON `user`.`id` = `project_assign`.`user_id`
+WHERE `project_assign`.`project_deallocate` = :project_assign.project_deallocate:
+AND `project_assign`.`project_deallocate` != :project_assign.project_deallocate.1:', [...], false)
+ 5 APPPATH/Models/ProjectAssignModel.php(224): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ProjectController.php(128): App\Models\ProjectAssignModel->getUserListOnSingleProject()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

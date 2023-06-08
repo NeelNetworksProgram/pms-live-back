@@ -1,0 +1,58 @@
+CRITICAL - 2023-04-18 11:08:59 --> Class "App\Models\NotificationModel" not found
+in APPPATH/Controllers/LoginController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 11:09:18 --> Class "App\Models\NotificationModel" not found
+in APPPATH/Controllers/LoginController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 11:09:33 --> Class "App\Models\NotificationModel" not found
+in APPPATH/Controllers/LoginController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 11:09:45 --> Class "App\Models\NotificationModel" not found
+in APPPATH/Controllers/LoginController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 11:10:18 --> Class "App\Models\NotificationModel" not found
+in APPPATH/Controllers/LoginController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 12:39:28 --> Undefined array key "task_name"
+in APPPATH/Controllers/TaskController.php on line 348.
+ 1 APPPATH/Controllers/TaskController.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "task_name"', 'APPPATH/Controllers/TaskController.php', 348)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 12:42:36 --> Undefined array key "task_name"
+in APPPATH/Controllers/TaskController.php on line 348.
+ 1 APPPATH/Controllers/TaskController.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "task_name"', 'APPPATH/Controllers/TaskController.php', 348)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 12:52:12 --> Undefined array key "login_id"
+in APPPATH/Controllers/TaskController.php on line 352.
+ 1 APPPATH/Controllers/TaskController.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_id"', 'APPPATH/Controllers/TaskController.php', 352)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->returnTaskToUser()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 13:18:08 --> Undefined variable $assign_id
+in APPPATH/Controllers/ProjectAssignController.php on line 548.
+ 1 APPPATH/Controllers/ProjectAssignController.php(548): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $assign_id', 'APPPATH/Controllers/ProjectAssignController.php', 548)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

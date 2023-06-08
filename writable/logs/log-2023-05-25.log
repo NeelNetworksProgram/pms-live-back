@@ -1,0 +1,249 @@
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-current-work-by-employee/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/all-notifications/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:32 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 10:27:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MjMyNDIsImV4cCI6MTY4NDk1MjA0MiwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.6fUi448hF8eXwGcbNcltbqT6IsOs9l4dG0ef5HOGpQM', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/get-current-work-by-employee/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 11:51:43 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODQ5MDQzNzAsImV4cCI6MTY4NDkzMzE3MCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIiwicmVmZXIiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAvIn0.UmfXQ5TJ26h6l6eW9hIO97WGGZWbJcE7gdup6ZPlmdE', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/deallocate', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-25 12:35:28 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `project...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `project...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `project...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `project...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/system/Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 /home3/neelneel/public_html/ems/v3/system/BaseModel.php(887): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /home3/neelneel/public_html/ems/v3/system/Model.php(721): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /home3/neelneel/public_html/ems/v3/app/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update()
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+#9 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+#10 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-25 12:35:28 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `project_assign` SET `project_deallocate` = \'yes\', `deallocate_at` = \'2023-05-25 12:35:28\'
+WHERE `id` = (\'76\',\'29\',\'69\',\'10\',\'<h2>Hi, you\\\'ve been assigned with a new project...</h2><p><br></p><h3>Estimated Time to complete this project...</h3>\',\'Web designer\',\'12\',\'no\',\'no\',\'2023-04-13 05:26:55\',\'0000-00-00 00:00:00\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `project_assign` SET `project_deallocate` = \'yes\', `deallocate_at` = \'2023-05-25 12:35:28\'
+WHERE `id` = (\'76\',\'29\',\'69\',\'10\',\'<h2>Hi, you\\\'ve been assigned with a new project...</h2><p><br></p><h3>Estimated Time to complete this project...</h3>\',\'Web designer\',\'12\',\'no\',\'no\',\'2023-04-13 05:26:55\',\'0000-00-00 00:00:00\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `project_assign` SET `project_deallocate` = \'yes\', `deallocate_at` = \'2023-05-25 12:35:28\'
+WHERE `id` = (\'76\',\'29\',\'69\',\'10\',\'<h2>Hi, you\\\'ve been assigned with a new project...</h2><p><br></p><h3>Estimated Time to complete this project...</h3>\',\'Web designer\',\'12\',\'no\',\'no\',\'2023-04-13 05:26:55\',\'0000-00-00 00:00:00\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `project_assign` SET `project_deallocate` = :project_deallocate:, `deallocate_at` = :deallocate_at:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(887): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-25 12:36:58 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `project...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `project...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `project...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `project...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/system/Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 /home3/neelneel/public_html/ems/v3/system/BaseModel.php(887): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /home3/neelneel/public_html/ems/v3/system/Model.php(721): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /home3/neelneel/public_html/ems/v3/app/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update()
+#8 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+#9 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+#10 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-25 12:36:58 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `project_assign` SET `project_deallocate` = \'yes\', `deallocate_at` = \'2023-05-25 12:36:58\'
+WHERE `id` = (\'83\',\'29\',\'11\',\'10\',\'<h2>Hi, you\\\'ve been assigned with a new project...</h2><p><br></p><h3>Estimated Time to complete this project...</h3>\',\'Web designer\',\'99\',\'no\',\'no\',\'2023-04-18 01:50:21\',\'0000-00-00 00:00:00\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `project_assign` SET `project_deallocate` = \'yes\', `deallocate_at` = \'2023-05-25 12:36:58\'
+WHERE `id` = (\'83\',\'29\',\'11\',\'10\',\'<h2>Hi, you\\\'ve been assigned with a new project...</h2><p><br></p><h3>Estimated Time to complete this project...</h3>\',\'Web designer\',\'99\',\'no\',\'no\',\'2023-04-18 01:50:21\',\'0000-00-00 00:00:00\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `project_assign` SET `project_deallocate` = \'yes\', `deallocate_at` = \'2023-05-25 12:36:58\'
+WHERE `id` = (\'83\',\'29\',\'11\',\'10\',\'<h2>Hi, you\\\'ve been assigned with a new project...</h2><p><br></p><h3>Estimated Time to complete this project...</h3>\',\'Web designer\',\'99\',\'no\',\'no\',\'2023-04-18 01:50:21\',\'0000-00-00 00:00:00\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `project_assign` SET `project_deallocate` = :project_deallocate:, `deallocate_at` = :deallocate_at:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH/Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(887): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:39:11 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:40:37 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:41:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:43:03 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:43:53 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:43:56 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(386): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:46:02 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1600.
+ 1 SYSTEMPATH/BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/ProjectAssignController.php(387): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-25 12:47:11 --> Undefined variable $update
+in APPPATH/Controllers/ProjectAssignController.php on line 389.
+ 1 APPPATH/Controllers/ProjectAssignController.php(389): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update', 'APPPATH/Controllers/ProjectAssignController.php', 389)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectAssignController->deallocate()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-25 15:41:57 --> mysqli_sql_exception: Unknown column 'holiday_date' in 'where clause' in /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v3/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home3/neelneel/public_html/ems/v3/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home3/neelneel/public_html/ems/v3/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/v3/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v3/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('2023-05-17', 'holiday_date', Array, NULL, 'holiday_date')
+#6 /home3/neelneel/public_html/ems/v3/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_date', 'holiday_date', '2023-05-17', Array, Array)
+#7 /home3/neelneel/public_html/ems/v3/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/v3/app/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+#10 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+#11 /home3/neelneel/public_html/ems/v3/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/v3/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-25 15:41:57 --> Unknown column 'holiday_date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiday_date` = \'2023-05-17\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `holidaylist`
+WHERE `holiday_date` = \'2023-05-17\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `holidaylist`
+WHERE `holiday_date` = \'2023-05-17\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `holidaylist`
+WHERE `holiday_date` = :holiday_date:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('2023-05-17', 'holiday_date', [...], null, 'holiday_date')
+ 7 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('holiday_date', 'holiday_date', '2023-05-17', [...], [...])
+ 8 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH/Controllers/HolidayListController.php(83): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\HolidayListController->addHolidayList()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HolidayListController))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,319 @@
+CRITICAL - 2023-03-17 10:28:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg5NDI1MDQsImV4cCI6MTY3OTAyODkwNCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.eUCV0t5Rx6Rv4tgkT5Z1lT84eu69NUIbOxhgXW3LFt0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 10:28:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg5NDI1MDQsImV4cCI6MTY3OTAyODkwNCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.eUCV0t5Rx6Rv4tgkT5Z1lT84eu69NUIbOxhgXW3LFt0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 10:28:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg5NDI1MDQsImV4cCI6MTY3OTAyODkwNCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.eUCV0t5Rx6Rv4tgkT5Z1lT84eu69NUIbOxhgXW3LFt0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 10:28:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg5NDI1MDQsImV4cCI6MTY3OTAyODkwNCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.eUCV0t5Rx6Rv4tgkT5Z1lT84eu69NUIbOxhgXW3LFt0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 10:28:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg5NDI1MDQsImV4cCI6MTY3OTAyODkwNCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.eUCV0t5Rx6Rv4tgkT5Z1lT84eu69NUIbOxhgXW3LFt0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('user/10', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 10:28:33 --> Expired token
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 162.
+ 1 APPPATH/Filters/Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2Nzg5NDI1MDQsImV4cCI6MTY3OTAyODkwNCwiZW1haWwiOiJkZXZlbkBuZWVsbmV0d29ya3MuY29tIn0.eUCV0t5Rx6Rv4tgkT5Z1lT84eu69NUIbOxhgXW3LFt0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:50:28 --> mysqli_sql_exception: Unknown column 'task_assign.assign_by' in 'on clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 12:50:28 --> Unknown column 'task_assign.assign_by' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = :task_assign.assign_to:
+AND `task_assign`.`task_status` = :task_assign.task_status:', [...], false)
+ 5 APPPATH/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:50:28 --> mysqli_sql_exception: Unknown column 'task_assign.assign_by' in 'on clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 12:50:28 --> Unknown column 'task_assign.assign_by' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = :task_assign.assign_to:
+AND `task_assign`.`task_status` = :task_assign.task_status:', [...], false)
+ 5 APPPATH/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:50:56 --> mysqli_sql_exception: Unknown column 'task_assign.assign_by' in 'on clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 12:50:56 --> Unknown column 'task_assign.assign_by' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = :task_assign.assign_to:
+AND `task_assign`.`task_status` = :task_assign.task_status:', [...], false)
+ 5 APPPATH/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:50:56 --> mysqli_sql_exception: Unknown column 'task_assign.assign_by' in 'on clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 12:50:56 --> Unknown column 'task_assign.assign_by' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `user`.`username` as `assign_by`, `projects`.`name` as `Project_name`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = :task_assign.assign_to:
+AND `task_assign`.`task_status` = :task_assign.task_status:', [...], false)
+ 5 APPPATH/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:53:55 --> mysqli_sql_exception: Unknown column 'task_assign.assign_by' in 'on clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 12:53:55 --> Unknown column 'task_assign.assign_by' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = :task_assign.assign_to:
+AND `task_assign`.`task_status` = :task_assign.task_status:', [...], false)
+ 5 APPPATH/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:53:56 --> mysqli_sql_exception: Unknown column 'task_assign.assign_by' in 'on clause' in /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/neelneel/public_html/ems/v2/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_as...', 0)
+#1 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_as...')
+#2 /home3/neelneel/public_html/ems/v2/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_as...')
+#3 /home3/neelneel/public_html/ems/v2/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_as...', Array, false)
+#4 /home3/neelneel/public_html/ems/v2/app/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/v2/app/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+#6 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+#7 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /home3/neelneel/public_html/ems/v2/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/v2/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 12:53:56 --> Unknown column 'task_assign.assign_by' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = \'11\'
+AND `task_assign`.`task_status` = \'Pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `task_assign`.`id` as `task_id`, `projects`.`id` as `project_id`, `projects`.`name` as `Project_name`, `user`.`username` as `assign_by`, `task_assign`.`task_status`, `task_assign`.`task_description`, `task_assign`.`created_at` as `assign_on`
+FROM `task_assign`
+JOIN `user` ON `task_assign`.`assign_by` = `user`.`id`
+JOIN `projects` ON `task_assign`.`project_id` = `projects`.`id`
+WHERE `task_assign`.`assign_to` = :task_assign.assign_to:
+AND `task_assign`.`task_status` = :task_assign.task_status:', [...], false)
+ 5 APPPATH/Models/TaskModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/TaskController.php(465): App\Models\TaskModel->getTaskBySingleUser('11', 'Pending')
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\TaskController->getTaskListByUserId()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 14:49:52 --> Undefined array key "id"
+in APPPATH/Controllers/ProjectController.php on line 164.
+ 1 APPPATH/Controllers/ProjectController.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH/Controllers/ProjectController.php', 164)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

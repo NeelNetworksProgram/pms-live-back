@@ -1,0 +1,176 @@
+CRITICAL - 2022-12-30 00:16:30 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1626.
+ 1 SYSTEMPATH\BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray('$2y$10$NHx.gjK3V0AdU/EJv2unFublRu0WmBHbRomGO/KhiiEeBaTMtbEBS', 'update')
+ 2 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], '$2y$10$NHx.gjK3V0AdU/EJv2unFublRu0WmBHbRomGO/KhiiEeBaTMtbEBS')
+ 3 APPPATH\Controllers\RegisterController.php(440): CodeIgniter\Model->update('hemant@neelnetworks.com', '$2y$10$NHx.gjK3V0AdU/EJv2unFublRu0WmBHbRomGO/KhiiEeBaTMtbEBS')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->resetpassword()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 00:19:09 --> Undefined variable $update
+in APPPATH\Controllers\RegisterController.php on line 441.
+ 1 APPPATH\Controllers\RegisterController.php(441): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update', 'APPPATH\\Controllers\\RegisterController.php', 441)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->resetpassword()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-30 01:25:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 01:25:34 --> 220 smtp.googlemail.com ESMTP s6-20020a170902ea0600b001913c5fc051sm14214816plg.274 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:7506:fb80:72d1:f53e]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s6-20020a170902ea0600b001913c5fc051sm14214816plg.274 - gsmtp
+
+ERROR - 2022-12-30 01:29:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 01:29:39 --> 220 smtp.googlemail.com ESMTP n3-20020a17090a5a8300b00219f1a2eca1sm12271111pji.2 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:7506:fb80:72d1:f53e]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n3-20020a17090a5a8300b00219f1a2eca1sm12271111pji.2 - gsmtp
+
+ERROR - 2022-12-30 01:30:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 01:30:58 --> 220 smtp.googlemail.com ESMTP q12-20020a17090311cc00b0018c990ce7fesm14231987plh.239 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:7506:fb80:72d1:f53e]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q12-20020a17090311cc00b0018c990ce7fesm14231987plh.239 - gsmtp
+
+ERROR - 2022-12-30 01:31:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 01:31:02 --> 220 smtp.googlemail.com ESMTP n6-20020a170902d2c600b0018962933a3esm14199930plc.181 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:7506:fb80:72d1:f53e]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n6-20020a170902d2c600b0018962933a3esm14199930plc.181 - gsmtp
+
+ERROR - 2022-12-30 01:32:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 01:32:08 --> 220 smtp.googlemail.com ESMTP b8-20020a1709027e0800b00189a7fbfd44sm14107392plm.211 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:7506:fb80:72d1:f53e]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b8-20020a1709027e0800b00189a7fbfd44sm14107392plm.211 - gsmtp
+
+CRITICAL - 2022-12-30 02:44:28 --> Undefined variable $random_string
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 APPPATH\Controllers\LoginController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_string', 'APPPATH\\Controllers\\LoginController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 02:45:51 --> Call to undefined function App\Controllers\random_string()
+in APPPATH\Controllers\LoginController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 02:51:30 --> Too few arguments to function App\Controllers\LoginController::resendlink(), 0 passed in C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->resendlink()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 02:51:42 --> Too few arguments to function App\Controllers\LoginController::resendlink(), 0 passed in C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\LoginController.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->resendlink()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 03:36:25 --> Undefined variable $response
+in APPPATH\Controllers\LoginController.php on line 115.
+ 1 APPPATH\Controllers\LoginController.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\LoginController.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->resendlink('1', 'YwEg5G8AbmnIri4W')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 04:45:29 --> Undefined variable $response
+in APPPATH\Controllers\LoginController.php on line 123.
+ 1 APPPATH\Controllers\LoginController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\LoginController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->resendlink('1', 'YwEg5G8AbmnIri4W')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-30 05:43:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 05:43:35 --> 220 smtp.googlemail.com ESMTP jb3-20020a170903258300b0018bde2250fcsm14749384plb.203 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:3849:fb0:e4af:f61d]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials jb3-20020a170903258300b0018bde2250fcsm14749384plb.203 - gsmtp
+
+CRITICAL - 2022-12-30 05:43:35 --> Undefined variable $response
+in APPPATH\Controllers\LoginController.php on line 154.
+ 1 APPPATH\Controllers\LoginController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\LoginController.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->resendlink('1', 'YwEg5G8AbmnIri4W')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2022-12-30 05:45:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-30 05:45:06 --> 220 smtp.googlemail.com ESMTP ml4-20020a17090b360400b00225ab429953sm14317692pjb.6 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2405:201:32:809a:3849:fb0:e4af:f61d]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ml4-20020a17090b360400b00225ab429953sm14317692pjb.6 - gsmtp
+

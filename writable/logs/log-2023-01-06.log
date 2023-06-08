@@ -1,0 +1,23 @@
+CRITICAL - 2023-01-06 04:24:30 --> Class "App\Controllers\ProjectModel" not found
+in APPPATH\Controllers\ProjectController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\ProjectController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 04:35:23 --> Undefined variable $response
+in APPPATH\Controllers\ProjectController.php on line 38.
+ 1 APPPATH\Controllers\ProjectController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'APPPATH\\Controllers\\ProjectController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectController->addproject()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 04:39:27 --> Undefined variable $res
+in APPPATH\Controllers\ProjectController.php on line 38.
+ 1 APPPATH\Controllers\ProjectController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'APPPATH\\Controllers\\ProjectController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectController->addproject()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

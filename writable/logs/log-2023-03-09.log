@@ -1,0 +1,492 @@
+CRITICAL - 2023-03-09 10:57:35 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:01:10 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:01:18 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:05:53 --> Undefined variable $project_id
+in APPPATH\Controllers\ProjectAssignController.php on line 85.
+ 1 APPPATH\Controllers\ProjectAssignController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $project_id', 'APPPATH\\Controllers\\ProjectAssignController.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:06:22 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:08:03 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:08:13 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:08:23 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:09:34 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:09:45 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:16:04 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:17:58 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:21:30 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:23:03 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:24:21 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:26:15 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:27:43 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:27:48 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:27:53 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:29:12 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-09 11:30:58 --> mysqli_sql_exception: Unknown column 'project_deallocated' in 'where clause' in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\app\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-09 11:30:58 --> Unknown column 'project_deallocated' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `project_assign`
+WHERE `project_id` = 41
+AND `user_id` = 10
+AND `project_deallocated` IN (NULL,\'no\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `project_assign`
+WHERE `project_id` = 41
+AND `user_id` = 10
+AND `project_deallocated` IN (NULL,\'no\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `project_assign`
+WHERE `project_id` = 41
+AND `user_id` = 10
+AND `project_deallocated` IN (NULL,\'no\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `project_assign`
+WHERE `project_id` = :project_id:
+AND `user_id` = :user_id:
+AND `project_deallocated` IN :project_deallocated:', [...], false)
+ 5 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ProjectAssignController.php(88): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:31:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::isEmpty()
+in APPPATH\Controllers\ProjectAssignController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:32:04 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Controllers\ProjectAssignController.php on line 90.
+ 1 APPPATH\Controllers\ProjectAssignController.php(90): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:32:08 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Controllers\ProjectAssignController.php on line 90.
+ 1 APPPATH\Controllers\ProjectAssignController.php(90): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:33:11 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:52:52 --> Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 711.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(674): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\ProjectAssignController.php(87): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:54:04 --> Undefined property: stdClass::$project_deallocated
+in APPPATH\Controllers\ProjectAssignController.php on line 93.
+ 1 APPPATH\Controllers\ProjectAssignController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$project_deallocated', 'APPPATH\\Controllers\\ProjectAssignController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 12:29:27 --> Undefined property: stdClass::$project_deallocated
+in APPPATH\Controllers\ProjectAssignController.php on line 93.
+ 1 APPPATH\Controllers\ProjectAssignController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$project_deallocated', 'APPPATH\\Controllers\\ProjectAssignController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 12:42:50 --> Undefined property: stdClass::$project_deallocated
+in APPPATH\Controllers\ProjectAssignController.php on line 93.
+ 1 APPPATH\Controllers\ProjectAssignController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$project_deallocated', 'APPPATH\\Controllers\\ProjectAssignController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 12:45:02 --> Undefined property: stdClass::$project_deallocated
+in APPPATH\Controllers\ProjectAssignController.php on line 90.
+ 1 APPPATH\Controllers\ProjectAssignController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$project_deallocated', 'APPPATH\\Controllers\\ProjectAssignController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 12:49:44 --> Undefined property: stdClass::$project_deallocated
+in APPPATH\Controllers\ProjectAssignController.php on line 90.
+ 1 APPPATH\Controllers\ProjectAssignController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$project_deallocated', 'APPPATH\\Controllers\\ProjectAssignController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectAssignController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectAssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 12:52:01 --> Creation of dynamic property App\Controllers\ProjectController::$project_model is deprecated
+in APPPATH\Controllers\ProjectController.php on line 15.
+ 1 APPPATH\Controllers\ProjectController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\ProjectController::$project_model is deprecated', 'APPPATH\\Controllers\\ProjectController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\ProjectController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 18:33:27 --> Creation of dynamic property App\Controllers\TaskController::$time_model is deprecated
+in APPPATH\Controllers\TaskController.php on line 16.
+ 1 APPPATH\Controllers\TaskController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\TaskController::$time_model is deprecated', 'APPPATH\\Controllers\\TaskController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\TaskController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 18:44:46 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgyODA3MTEsImV4cCI6MTY3ODM2NzExMSwiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSJ9.Uvj8xj-jMUWrj8XsPnv5xO3AxR9yHdciw73tKqX7qQo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('assign-task/task', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-09 19:28:40 --> mysqli_sql_exception: Table 'project_assign' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-25-064200_ProjectAssign.php(35): CodeIgniter\Database\Forge->createTable('project_assign')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\ProjectAssign->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-03-09 19:29:37 --> mysqli_sql_exception: Table 'project_assign' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-25-064200_ProjectAssign.php(35): CodeIgniter\Database\Forge->createTable('project_assign')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\ProjectAssign->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-03-09 19:31:07 --> mysqli_sql_exception: Table 'project_assign' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-25-064200_ProjectAssign.php(35): CodeIgniter\Database\Forge->createTable('project_assign')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\ProjectAssign->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-03-09 19:32:44 --> mysqli_sql_exception: Table 'projects' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-06-095347_Projects.php(26): CodeIgniter\Database\Forge->createTable('projects')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\Projects->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-03-09 19:33:41 --> mysqli_sql_exception: Table 'projects' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-06-095347_Projects.php(26): CodeIgniter\Database\Forge->createTable('projects')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\Projects->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#16 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}
+ERROR - 2023-03-09 19:33:55 --> mysqli_sql_exception: Table 'projects' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-06-095347_Projects.php(26): CodeIgniter\Database\Forge->createTable('projects')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\Projects->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-03-09 19:35:47 --> mysqli_sql_exception: Table 'projects' already exists in C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\app\Database\Migrations\2023-01-06-095347_Projects.php(26): CodeIgniter\Database\Forge->createTable('projects')
+#5 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(869): App\Database\Migrations\Projects->up()
+#6 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\hemant-proj\ci\project-managment\v2\v209-03-2023\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+CRITICAL - 2023-03-09 19:37:00 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(61): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzgyODA3MTEsImV4cCI6MTY3ODM2NzExMSwiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSJ9.Uvj8xj-jMUWrj8XsPnv5xO3AxR9yHdciw73tKqX7qQo', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project/assign', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

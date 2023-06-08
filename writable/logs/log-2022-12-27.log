@@ -1,0 +1,376 @@
+CRITICAL - 2022-12-27 00:03:57 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:28:34 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:30:00 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:31:01 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:31:55 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:50:30 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:52:26 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:52:49 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:00:22 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:00:35 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:01:08 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:02:11 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:04:38 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:05:07 --> Object of class App\Models\UsersModel could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:51:06 --> Undefined variable $user_model
+in APPPATH\Controllers\ApiCreation.php on line 78.
+ 1 APPPATH\Controllers\ApiCreation.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_model', 'APPPATH\\Controllers\\ApiCreation.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 01:52:51 --> Undefined variable $user_model
+in APPPATH\Controllers\ApiCreation.php on line 78.
+ 1 APPPATH\Controllers\ApiCreation.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_model', 'APPPATH\\Controllers\\ApiCreation.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:47:16 --> Cannot call constructor
+in APPPATH\Controllers\ApiCreation.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\ApiCreation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:48:23 --> Cannot call constructor
+in APPPATH\Controllers\ApiCreation.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\ApiCreation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:48:34 --> Cannot call constructor
+in APPPATH\Controllers\ApiCreation.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\ApiCreation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:49:14 --> Cannot call constructor
+in APPPATH\Controllers\ApiCreation.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\ApiCreation->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 02:53:31 --> Undefined variable $model
+in APPPATH\Controllers\ApiCreation.php on line 79.
+ 1 APPPATH\Controllers\ApiCreation.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\ApiCreation.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->listing()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:08:57 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:09:30 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:11:27 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:20:16 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:22:21 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:25:34 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:28:06 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:28:54 --> Object of class App\Controllers\ApiCreation could not be converted to string
+in APPPATH\Controllers\ApiCreation.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 03:44:00 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(129): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-27 03:54:39 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 03:54:39 --> Undefined property: App\Controllers\ApiCreation::$db
+in APPPATH\Controllers\ApiCreation.php on line 137.
+ 1 APPPATH\Controllers\ApiCreation.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiCreation::$db', 'APPPATH\\Controllers\\ApiCreation.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 03:54:54 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 03:54:54 --> Undefined variable $db
+in APPPATH\Controllers\ApiCreation.php on line 137.
+ 1 APPPATH\Controllers\ApiCreation.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\ApiCreation.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 03:55:12 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 03:55:12 --> Undefined variable $db
+in APPPATH\Controllers\ApiCreation.php on line 137.
+ 1 APPPATH\Controllers\ApiCreation.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\ApiCreation.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 03:59:06 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 03:59:06 --> Duplicate entry 'satish@neelnetworks.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` SET `email` = \'satish@neelnetworks.com\'
+WHERE `user`.`id` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` SET `email` = \'satish@neelnetworks.com\'
+WHERE `user`.`id` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` SET `email` = \'satish@neelnetworks.com\'
+WHERE `user`.`id` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `email` = :email:
+WHERE `user`.`id` IN :user.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(887): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 03:59:46 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 03:59:46 --> Undefined variable $db
+in APPPATH\Controllers\ApiCreation.php on line 137.
+ 1 APPPATH\Controllers\ApiCreation.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\ApiCreation.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 04:00:03 --> mysqli_sql_exception: Duplicate entry 'satish@neelnetworks.com' for key 'email' in C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\hemant-proj\ci\user\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\hemant-proj\ci\user\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\hemant-proj\ci\user\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\ApiCreation.php(130): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(925): App\Controllers\ApiCreation->update('3')
+#9 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCreation))
+#10 C:\xampp\htdocs\hemant-proj\ci\user\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hemant-proj\ci\user\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 06:08:17 --> Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\LoginController.php on line 51 and exactly 2 expected
+in SYSTEMPATH\HTTP\MessageTrait.php on line 141.
+ 1 APPPATH\Controllers\LoginController.php(51): CodeIgniter\HTTP\Message->setHeader('Status: 404 Not Found')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:08:36 --> Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\LoginController.php on line 51 and exactly 2 expected
+in SYSTEMPATH\HTTP\MessageTrait.php on line 141.
+ 1 APPPATH\Controllers\LoginController.php(51): CodeIgniter\HTTP\Message->setHeader('Status: 200 ok')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:09:37 --> Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\LoginController.php on line 51 and exactly 2 expected
+in SYSTEMPATH\HTTP\MessageTrait.php on line 141.
+ 1 APPPATH\Controllers\LoginController.php(51): CodeIgniter\HTTP\Message->setHeader('HTTP/1.1 200 Ok')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:31:08 --> Call to undefined method App\Controllers\LoginController::respondFormat()
+in APPPATH\Controllers\LoginController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:41:57 --> App\Controllers\LoginController::respond(): Argument #2 ($status) must be of type ?int, array given, called in C:\xampp\htdocs\hemant-proj\ci\user\app\Controllers\LoginController.php on line 77
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\LoginController.php(77): App\Controllers\LoginController->respond([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:47:37 --> Undefined variable $model
+in APPPATH\Controllers\LoginController.php on line 46.
+ 1 APPPATH\Controllers\LoginController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\LoginController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 07:17:16 --> Undefined property: App\Controllers\RegisterController::$input
+in APPPATH\Controllers\RegisterController.php on line 16.
+ 1 APPPATH\Controllers\RegisterController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RegisterController::$input', 'APPPATH\\Controllers\\RegisterController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

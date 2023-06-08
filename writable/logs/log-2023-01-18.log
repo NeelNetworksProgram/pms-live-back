@@ -1,0 +1,153 @@
+CRITICAL - 2023-01-18 11:56:28 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Controllers\ProjectController.php on line 171.
+ 1 APPPATH\Controllers\ProjectController.php(171): explode('ROOTPATH\\public', 'edit,view,create')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-18 15:04:24 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzQwMjA4MTIsImV4cCI6MTY3NDAyNDQxMiwiZW1haWwiOiJyYXRuZXNoQG5lZWxuZXR3b3Jrcy5jb20iLCJ1c2VyX2lkIjoiOSJ9.TJrjtuEvBXGuE6SZe_MNKgFi2p2r8uSp2ScD2Qu07gg', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-18 15:24:16 --> is_unique(projects.name) is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_unique(projects.name)')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('name', 'name', 'test', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ProjectController.php(152): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ProjectController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-18 16:16:37 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\Auth.php(62): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOZWVsIG5ldHdvcmtzIiwiYXVkIjoiY3VzdG9tZXIiLCJpYXQiOjE2NzQwMzQ1MTQsImV4cCI6MTY3NDAzODExNCwiZW1haWwiOiJoZW1hbnRAbmVlbG5ldHdvcmtzLmNvbSIsInVzZXJfaWQiOiIxIn0.CClk7JqYGp7cWLmN9w0ioBlN3ZUnjYfgE53xMlfT0SQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-18 16:38:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'employee-manage...', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Ferndale projec...', 'name', Array, NULL, 'name')
+#6 /home3/neelneel/public_html/ems/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('name', 'name', 'Ferndale projec...', Array, Array)
+#7 /home3/neelneel/public_html/ems/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /home3/neelneel/public_html/ems/app/Controllers/ProjectController.php(152): CodeIgniter\Controller->validate(Array, Array)
+#9 /home3/neelneel/public_html/ems/system/CodeIgniter.php(925): App\Controllers\ProjectController->update()
+#10 /home3/neelneel/public_html/ems/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#11 /home3/neelneel/public_html/ems/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home3/neelneel/public_html/ems/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/system/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Ferndale projec...', 'name', Array, NULL, 'name')
+#5 /home3/neelneel/public_html/ems/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('name', 'name', 'Ferndale projec...', Array, Array)
+#6 /home3/neelneel/public_html/ems/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 /home3/neelneel/public_html/ems/app/Controllers/ProjectController.php(152): CodeIgniter\Controller->validate(Array, Array)
+#8 /home3/neelneel/public_html/ems/system/CodeIgniter.php(925): App\Controllers\ProjectController->update()
+#9 /home3/neelneel/public_html/ems/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#10 /home3/neelneel/public_html/ems/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home3/neelneel/public_html/ems/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-18 16:38:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `projects`
+WHERE `name` = :name:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/Validation/Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Ferndale project', 'name', [...], null, 'name')
+ 5 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('name', 'name', 'Ferndale project', [...], [...])
+ 6 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH/Controllers/ProjectController.php(152): CodeIgniter\Controller->validate([...], [...])
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->update()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 16:38:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'employee-manage...', 3306, '', 0)
+#1 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home3/neelneel/public_html/ems/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/neelneel/public_html/ems/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/neelneel/public_html/ems/system/BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home3/neelneel/public_html/ems/app/Controllers/ProjectController.php(119): CodeIgniter\BaseModel->findAll()
+#7 /home3/neelneel/public_html/ems/system/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+#8 /home3/neelneel/public_html/ems/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#9 /home3/neelneel/public_html/ems/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/neelneel/public_html/ems/index.php(73): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home3/neelneel/public_html/ems/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home3/neelneel/public_html/ems/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home3/neelneel/public_html/ems/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home3/neelneel/public_html/ems/system/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 /home3/neelneel/public_html/ems/system/BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home3/neelneel/public_html/ems/app/Controllers/ProjectController.php(119): CodeIgniter\BaseModel->findAll()
+#6 /home3/neelneel/public_html/ems/system/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+#7 /home3/neelneel/public_html/ems/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#8 /home3/neelneel/public_html/ems/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/neelneel/public_html/ems/index.php(73): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-18 16:38:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`', [], false)
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/ProjectController.php(119): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\ProjectController->all_project()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 17:11:59 --> Undefined variable $user_data
+in APPPATH/Controllers/LoginController.php on line 141.
+ 1 APPPATH/Controllers/LoginController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_data', 'APPPATH/Controllers/LoginController.php', 141)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\LoginController->resendlink('10', 'ZcQ3GnCgXdu2e7bh')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 17:13:55 --> Undefined variable $data
+in APPPATH/Controllers/LoginController.php on line 139.
+ 1 APPPATH/Controllers/LoginController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Controllers/LoginController.php', 139)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\LoginController->resendlink('10', 'apml3POcjUKnoFbi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 17:37:54 --> Wrong number of segments
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 102.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('134j234jef4ij42ji', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 17:37:54 --> Wrong number of segments
+in FCPATH/vendor/firebase/php-jwt/src/JWT.php on line 102.
+ 1 APPPATH/Filters/Auth.php(62): Firebase\JWT\JWT::decode('134j234jef4ij42ji', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('project', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
